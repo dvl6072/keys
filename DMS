@@ -1,0 +1,3719 @@
+What are some sources of data can be considered as "big data"
+A. Transactions from banking and business operations
+B. Web traffics on the internet
+C. Call logs of a telecommunications provider like AT&T
+D. All of the these
+D
+
+
+The term "data mining" refers to the process of discovering useful patterns in data ?
+A. True
+B. False
+A
+
+
+
+
+
+What is not an application of data mining in information security fields ?
+A. Auditing: analyze the audit data and determine if there are any abnormalities
+B. Intrusion detection: examine the activities and determine whether unauthorized intrusions have occurred or will occur
+C. Customer Modeling: finding the habits of customers for competitive advantages
+D. Data quality: examine the data and determine whether the data is incomplete
+C
+
+
+The fields of machine learning and data mining is known as Knowledge Discovery
+A. True
+B. False
+A
+
+
+The informal definition of machine learning: "the field of study that gives computers the ability to learn without being explicitly programmed"
+A. True
+B. False
+A
+
+
+What is the valid Knowledge Discovery process circle
+A. Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, Deployment
+B. Business Understanding, Data Preparation, Data Understanding, Modeling, Evaluation, Deployment
+C. Business Understanding, Data Understanding, Data Preparation, Evaluation, Modeling, Deployment
+D. Data Understanding, Business Understanding, Data Preparation, Modeling, Evaluation, Deployment
+A
+
+
+Machine learning or "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E". If apply to "classify phishing emails" what is the P
+A. The probability of being classified correctly
+B. Classifying phishing email task
+C. A data of labeled emails
+D. None of these
+A
+
+
+Which of these are the popular data mining tasks ?
+A. Classification
+B. Clustering
+C. Visualization
+D. All of these
+D
+
+
+What is not a factor of a successful applications of data mining
+A. Require knowledge-based decisions
+B. Have accessible, sufficient, and relevant data
+C. Have a changing environment
+D. Provides low payoff for the right decisions
+D
+
+
+Unstructured data usually stored relational database system before being preprocessed in Data Preparation phase ?
+A. True
+B. False
+B
+
+
+In classification problems of machine learning, we are instead trying to predict results in a continuous output?
+A. True
+B. False
+B
+
+
+Supervised Learning can be categorized into "regression" and "classification" problems ?
+A. True
+B. False
+A
+
+
+Choose one algorithm that is not of type supervised learning?
+A. Linear regression
+B. Decision tree
+C. Linear Support Vector Machine
+D. K-means
+D
+
+
+In linear regression, we are trying to:
+A. make a best straight line which passes through the training data points
+B. constructs a hyperplane which has the largest distance to the nearest training data points of any class (largest margin)
+C. applying Bayes' theorem with strong independence assumptions between every pair of features
+D. None of these
+A
+
+
+Which of the problems below are best addressed using a supervised learning algorithm
+A. From the network flow of a process in computer, predict whether or not it's related to a botnet
+B. From a large malware samples, try to category them based on its behavior
+C. From the web access logs, predict if any sessions come from abnormal users
+D. All of these
+A,C
+
+
+Weka is a machine learning software to solve data mining problems ?
+A. False
+B. True
+B
+
+
+Which are some problems of finding patterns ?
+A. Most patterns are not interesting
+B. Patterns may be inexact
+C. Data may be garbled or missing
+D. All of these
+D
+
+
+Which of the problems below are best addressed using a unsupervised learning algorithm
+A. From the network flow of a process in computer, predict weather or not it's related to a botnet
+B. From a large malware samples, try to category them based on its behavior
+C. From the web access logs, predict if any sessions come from abnormal users
+D. All of these
+B
+
+
+To make a good predictor (the model after feeding the training data into algorithm) we can change the algorithm parameters ?
+A. True
+B. False
+A
+
+
+The term "overfitting" in machine learning refers what ?
+A. It is too dependent on that data and it is likely to have a higher error rate on new unseen data
+B. It is not adequately capture the underlying structure of the data and such a model will tend to have poor predictive performance
+A
+
+
+What are the forms of input that a machine learning might take ?
+A. Concepts
+B. Instances
+C. Attributes
+D. All of them
+D
+
+
+What is a concept which is the input form of machine learning ?
+A. Kinds of things that can be learned or what we are trying to find—the result of the learning process
+B. An individual, independent example of the concept to be learned
+C. Is characterized by the values of attributes that measure different aspects of the instance
+D. None of them
+A
+
+
+What is an instance which is the input form of machine learning ?
+A. Kinds of things that can be learned or what we are trying to find—the result of the learning process
+B. An individual, independent example of the concept to be learned
+C. Is characterized by the values of attributes that measure different aspects of the instance
+D. None of them
+B
+
+
+What is an attribute which is the input form of machine learning ?
+A. Kinds of things that can be learned or what we are trying to find—the result of the learning process
+B. An individual, independent example of the concept to be learned
+C. Is characterized by the values of attributes that measure different aspects of the instance
+C
+
+
+What are basically different styles of learning commonly appear in data mining applications ?
+A. Classification learning, Association learning
+B. Classification learning, Association learning, Clustering
+C. Classification learning, Association learning, Clustering, Numeric prediction
+D. Classification learning
+C
+
+
+Describe classification learning style ?
+A. The learning scheme is presented with a set of classified examples from which it is expected to learn a way of classifying unseen examples
+B. Any association among features is sought, not just ones that predict a particular class value
+C. Groups of examples that belong together are sought
+D. The outcome to be predicted is not a discrete class but a numeric quantity
+A
+
+
+Describe association learning ?
+A. The learning scheme is presented with a set of classified examples from which it is expected to learn a way of classifying unseen examples
+B. Any association among features is sought, not just ones that predict a particular class value
+C. Groups of examples that belong together are sought
+D. The outcome to be predicted is not a discrete class but a numeric quantity
+B
+
+
+Describe clustering learning ?
+A. The learning scheme is presented with a set of classified examples from which it is expected to learn a way of classifying unseen examples
+B. Any association among features is sought, not just ones that predict a particular class value
+C. Groups of examples that belong together are sought
+D. The outcome to be predicted is not a discrete class but a numeric quantity
+C
+
+
+Describe numeric prediction (regression) learning ?
+A. The learning scheme is presented with a set of classified examples from which it is expected to learn a way of classifying unseen examples
+B. Any association among features is sought, not just ones that predict a particular class value
+C. Groups of examples that belong together are sought
+D. The outcome to be predicted is not a discrete class but a numeric quantity
+D
+
+
+It's called supervised learning because its scheme operates under supervision by being provided with the actual outcome for each of the training examples
+A. True
+B. False
+A
+
+
+Suppose in the weather data an attribute has values sunny, overcast, and rainy. So its attributes not belong to which type ?
+A. Nominal attribute
+B. Ordinal attribute
+C. Numeric (continuous) attribute
+D. None of them
+C
+
+
+Nominal attributes differ from ordinal attributes in which it's the ones that make it possible to rank order the categories (like hot > mild > cool)
+A. True
+B. False
+B
+
+
+
+
+Nâng cấp để gỡ bỏ quảng cáo
+Chỉ 35,99 US$/năm
+What are the challenges when gathering data together?
+A. Different data sources
+B. External data may be required
+C. Type and level of data aggregation
+D. All of them
+D
+
+
+ARFF file is an ASCII text file that describes a list of instances sharing a set of attributes in weka ?
+A. True
+B. False
+A
+
+
+Some issues like missing values, inaccurate values, unbalanced data are all insignificance things in preparing the input step ?
+A. True
+B. False
+B
+
+
+"knowledge" pattern representation is the process of representing the patterns that can be discovered by machine learning
+A. True
+B. False
+A
+
+
+______ is the way of representing the output from machine learning that is the same form as the input and can be considered as a lookup table
+A. Decision table
+B. Decision tree
+C. Decision rule
+D. Linear model
+A
+
+
+Which statements are true for decision tree pattern representation ?
+A. Nodes in a decision tree involve testing a particular attribute. Usually, the test compares an attribute value with a constant.
+B. Leaf nodes give a classification that applies to all instances that reach the leaf, or a set of classifications
+C. To classify unknown instance it's is routed down the tree
+D. All of them
+D
+
+
+In decision tree pattern representation, if an attribute that is tested at a node is a ______ one, the number of children is usually the number of possible values of the attribute
+A. Nominal
+B. Numeric
+A
+
+
+In decision tree pattern representation, if the attribute is numeric, the test at a node usually determines whether its value is greater or less than a predetermined constant, giving a two-way split
+A. True
+B. False
+A
+
+
+In decision tree pattern representation, a simple solution is to record the number of elements in the training set that go down each branch and to use the most popular branch if the value for a test instance is missing
+A. True
+B. False
+A
+
+
+Which statements are true for converting from trees to rules ?
+A. One rule is generated for each leaf
+B. Produces rules that are unambiguous
+C. Resulting rules are unnecessarily complex
+D. All of them
+D
+
+
+Decision rules are make up two components antecedent (precondition) and consequent(conclusion) what are they ?
+A. Antecedent is a series of tests just like the tests at nodes in decision trees. Consequent gives a class (classes) assigned by a rule
+B. Consequent is a series of tests just like the tests at nodes in decision trees. Antecedent gives a class (classes) assigned by a rule
+A
+
+
+Which statements are false for converting from rules to trees ?
+A. Tree cannot easily express disjunction between rules (like the same structure but different attributes)
+B. None of them
+C. Corresponding tree may contains identical subtrees
+D. It's easier process compared with the inverse
+D
+
+
+Some advantages of using decision rules over decision trees are:
+A. New rules can be added to an existing rule set without disturbing ones already there, whereas to add to a tree structure may require reshaping the whole tree
+B. For binary classification problems just need to define rules for only one class
+C. None of them
+D. All of them
+D
+
+
+Instance-based knowledge representation uses the instances themselves to represent what is learned, rather than inferring a rule set or decision tree and storing it instead ?
+A. True
+B. False
+A
+
+
+Which statements are true about instance-based learning ?
+A. Instance-based learning is lazy, deferring the real work as long as possible
+B. Training instances are searched for instance that most closely resembles new instance
+C. K-nearest-neighbor method is of this type
+D. All of these
+D
+
+
+2-D representation, venn diagram, probabilistic assignment and dendrogram are some output forms of diagrams when clusters rather than a classifier is learned ?
+A. True
+B. False
+A
+
+
+Differences between relational and propositional decision rules ?
+A. Propositional decision rules are rules involved comparing an attribute-value to a constant
+B. Relational decision rules exists because a need for comparing attributes with each other
+C. None of them
+D. All of them
+D
+
+
+For classification, linear model representation defines a decision boundary (hyperplane) which is a line separating classes
+A. True
+B. False
+A
+
+
+Opposed to 1R method, naive bayes's modeling use all attributes and allow them to make contributions to the modeling ?
+A. True
+B. False
+A
+
+
+Two assumptions of attributes that naive bayes makes are (all these assumption is almost never correct in real datasets)?
+A. Attributes are equally important and statistically independent
+B. Attributes are equally important and statistically dependent
+A
+
+
+Suppose Bayes's rule is P(H | E) = P(E | H)*P(H)/P(E) where E is the evidence (attribute values), H is the hypothesis (which class). Probability of event before evidence is seen is
+A. P(H)
+B. P(H | E)
+C. none of these
+D. P(E)
+A
+
+
+Suppose Bayes's rule is P(H | E) = P(E | H)*P(H)/P(E) where E is the evidence (attribute values), H is the hypothesis (which class). Probability of event after evidence is seen is
+A. P(H)
+B. P(H | E)
+C. none of these
+D. P(E)
+B
+
+
+Which statements are true about the zero-frequency problems ?
+A. Occurs if a particular attribute value does not occur in the training set in conjunction with every class value
+B. A posteriori probability will also be zero (regardless of how likely the other values are)
+C. Fixed by smoothing method (Laplace estimator)
+D. All of them
+D
+
+
+Why can we ignore the denominator of Bayes Theorem when calculating the probabilities of each class?
+A. It's the same for all classes
+B. It can't be ignored
+C. It doesn't have a denominator
+D. It will add error to the final probability of every class
+A
+
+
+What does zero-frequency problem in Naive Bayes modeling do is by adding 1 to the count for every attribute value-class combination ?
+A. True
+B. False
+A
+
+
+In Naive Bayes modeling how does it handle missing values ?
+A. Just ignore missing attributes from calculation
+B. Not problem at all because of zero-frequency problem fixing
+C. All of them
+D. None of them
+A
+
+
+In Naive Bayes modeling it usually handles numeric attributes by assuming that they have a "normal" or "Gaussian" probability distribution and then compute the most likely parameters of this Gaussian like mean and stand deviation ?
+A. True
+B. False
+A
+
+
+Popular applications of Naive Bayes classification are ?
+A. Email spam filtering
+B. News similarity
+C. Product's reviews evalution
+D. All of them
+D
+
+
+Suppose using Naive Bayes classification for email spam filtering, after you learned that probabilities of event 'spam' and 'not_spam' after evidence are 0.4, 0.6 corresponding. So the email is classified as:
+A. Spam
+B. Not spam
+B
+
+
+The general steps for constructing decision trees are first select an attribute to place at the root node, and make one branch for each possible value, then splits up the example set into subsets, one for every value of the attribute, finally repeat recursively for each branch, using only instances that reach the branch
+A. True
+B. False
+A
+
+
+Which dataset has the largest information impurity
+A. A set of 5 samples all have the same class
+B. A set of 10 samples all have 5 class A, 5 class B
+C. A set of 20 samples all have the same class
+D. All of them
+B
+
+
+Which statements are not true about decision tree ?
+A. An internal node is a test on an attribute or which feature to split on
+B. A branch represents an outcome of the test
+C. A leaf node represents a class label or class label distribution
+D. All of them
+D
+
+
+______ is the entropy of the class distribution and it represents the expected amount of information that would be needed to classify to one class
+A. Impurity measure
+B. Information gain
+A
+
+
+Some criterions for attribute selection are ?
+A. The one which will result in the largest tree
+B. Choose an attribute that has lowest impurity
+C. An attribute whose information gain is greatest among others
+D. B and C
+E. All of them
+D
+
+
+When does the process of building a decision tree stop ?
+A. When the data cannot be split any further or no information gain on every leaves
+B. When information gain on one feature greater than 0
+C. When information gain on every features greater than 0
+D. When no information gain on one feature
+A
+
+
+Entropy(impurity measure) is ______ when all classes are equally likely and ______ when one of the classes has probability 1
+A. Maximal, minimal
+B. Minimal, maximum
+A
+
+
+What is the formula of computing information gain ?
+A. Information before splitting - information after splitting
+B. Information after splitting- information before splitting
+A
+
+
+Entropy is a function that satisfies all three properties which are ?
+A. When node is pure, measure should be zero
+B. When impurity is maximal (i.e. all classes equally likely), measure should be maximal
+C. Measure should obey multistage property (i.e. decisions can be made in several stages)
+D. All of them
+D
+
+
+In decision tree, information gain is biased towards choosing attributes with a small number of values
+A. True
+B. False
+B
+
+
+The overall effect of having attributes with a large number of distinct values is ?
+A. The information gain measure tends to prefer attributes with large numbers of possible values
+B. This may result in overfitting (selection of an attribute that is non-optimal for prediction)
+C. All of them
+D. None of them
+C
+
+
+The purpose of gain ratio or weighted information gain is that making an importance of attribute decreases as intrinsic information gets larger
+A. True
+B. False
+A
+
+
+Some limitations of decision tree algorithm are ?
+A. Many implementations use divide-and-conquer method for construction so it's not globally optimal solution
+B. They potentially overfit the data
+C. All of them
+D. None of them
+C
+
+
+Which statements are true about "gain ratio" ?
+A. Should be large when data is evenly spread and small when all data belong to one branch
+C. Takes number and size of branches into account when choosing an attribute
+B. A modification of the information gain that reduces its bias on high-branch attributes
+D. All of them
+D
+
+
+Gini impurity, information gain ratio or information entropy are all functions for:
+A. Impurity measure
+B. The expected information gain (or the change in information entropy from a prior state)
+A
+
+
+ID3 algorithm is an extension of algorithm C.45 with some improvements like numeric attributes, missing values, pruning strategy?
+A. True
+B. False
+B
+
+
+Which statements are false about how C.45 handles numeric attributes ?
+A. The standard method is binary splits
+B. Unlike nominal attributes, every attribute has many possible split points
+C. To choose "best" split point, evaluate info gain for every possible split point of attribute
+D. This process is less computationally demanding than for nominal attributes
+D
+
+
+Which statements are true when comparing binary(on numeric attribute) vs multiway (on nominal attribute) splits in C.45?
+A. Splitting (multi-way) on a nominal attribute exhausts all information in that attribute
+B. Numeric attribute may be tested several times along a path in the tree
+C. Disadvantages of the tree using binary split are messy and difficult to understand
+D. All of them
+D
+
+
+Because the decision tree models tend to ______ so one way to solve this problem is to prune the tree
+A. Overfitting
+B. Underfitting
+A
+
+
+______ is one of pruning strategy to prevent overfitting in the decision tree.
+A. Postpruning which take a fully-grown decision tree and discard unreliable parts
+B. Postpruning which stop growing a branch when information becomes unreliable
+A
+
+
+______ is one of pruning strategy to prevent overfitting in the decision tree.
+A. Prepruning which take a fully-grown decision tree and discard unreliable parts
+B. Prepruning which stop growing a branch when information becomes unreliable
+B
+
+
+The reason why most decision tree builders prefer postprune over prepruning is there're some situations occur in which two attributes individually seem to have nothing to contribute but are powerful predictors when combined
+A. True
+B. False
+A
+
+
+Which statements are true about postpruning ?
+A. Two prunning operations are subtree replacement and subtree raising
+B. To decide weather or not to prune some strategies are error estimation, significance testing ...
+C. Some subtrees might be due to chance effects
+D. All of them
+D
+
+
+Which statements are true about prepruning in decision tree ?
+A. Based on statistical significance test
+B. Most popular test is chi-squared test
+C. Quinlan's classic tree learner ID3 used chi-squared test in addition to information gain
+D. All of them
+D
+
+
+In decision tree optimization, ______ is a potentially time-consuming operation
+A. Subtree raising
+B. Subtree replacement
+A
+
+
+The Classification And Regression Tree (CART) algorithm used for ______ modeling problems
+A. Classification tree
+B. Regression tree
+C. Classification tree or regression tree
+C
+
+
+Which statements are true about CART decision-tree algorithm ?
+A. Non-parametric (independent of the statistical distribution of the training data)
+B. Can model continuous (regression trees) or categorical (classification trees) target variables
+C. Can use continuous and non-continuous predictor variables
+D. All of them
+D
+
+
+Decision tree CART algorithm is multivariate?
+A. True
+B. False
+B
+
+
+In decision tree CART model building, at each node in the tree the remaining data (from training points) are split into two groups that have maximum dissimilarity
+A. True
+B. False
+A
+
+
+In decision tree CART whose features including ?
+A. Automatically selects relevant fields
+B. No data preprocessing needed
+C. Missing value tolerant
+D. All of them
+D
+
+
+In decision tree CART model building, which metrics used by CART ?
+A. Gini impurity
+B. Information gain (based on the concept of entropy)
+A
+
+
+Which criteria decision tree CART use to optimize tree selection ?
+A. Deciding on the best tree after growing and pruning
+B. Balancing simplicity against accuracy
+C. All of them
+D. None of them
+C
+
+
+In decision tree CART model building how it handle missing values ?
+A. It treats missing as a distinct categorical value
+B. It delete cases that have missing values
+C. It freeze case in node in which missing splitter encountered
+D. It allow cases with missing split variable to follow majority
+E. It uses a more refined method —a surrogate
+E
+
+
+A primary splitter is the best splitter of a node so a surrogate (a method used to handle missing values in CART) is a splitter that splits in a fashion similar to the primary
+A. True
+B. False
+A
+
+
+CART algorithm is a decision tree algorithm ?
+A. True
+B. False
+A
+
+
+Which statements are false about linear regression
+A. The goal is to find a line or a linear combination of its attributes
+B. Work most naturally with numeric attributes
+C. Weights are calculated from the training data
+D. To find the best line, the line must maximum the cost function
+D
+
+
+The squared error function equals zero for linear regression when:
+A. The line should pass all points (instances) in training dataset
+B. The line should not pass all points (instances) in training dataset
+A
+
+
+Suppose use gradient descent to find linear regression model parameters if its learning is too small what will happen ?
+A. Gradient descent can be slow to converge
+B. It may fail to converge or even diverge
+A
+
+
+What is the purpose of gradient descent algorithm?
+A. To find the point at local minimum or global minimum of the cost function
+B. To find the point at local maximum or global maximum of the cost function
+A
+
+
+Logistic Regression differs from Linear Regression because the output of a Logistic Regression model ranges from -∞ to +∞
+A. True
+B. False
+B
+
+
+Which statements are true about logistic regression ?
+A. The output of the model is the estimated probability that class 1 on an instance as input
+B. Its model represented by a logistic(sigmod) function
+C. Decision boundary for two-class logistic regression is where probability equals 0.5
+D. All of them
+D
+
+
+The goal of maximum log-likelihood in logistic regression is to find parameters of decision boundary line so the cost function is minimized?
+A. True
+B. False
+A
+
+
+which statements are true about instance-based learning ?
+A. In instance-based learning the distance function defines what is learned
+B. Most instance-based schemes use Euclidean distance
+C. For nominal attributes the distance is set to 1 if values are different, 0 if they are equal
+D. All of them
+D
+
+
+The goal of normalization is make every datapoint have the same scale so each feature is equally important
+A. True
+B. False
+A
+
+
+______ algorithm is of type instance-based learning and ______ algorithm if of type clustering ?
+A. K nearest neighbor, k means
+B. K means, k nearest neighbor
+A
+
+
+What is the definition of training set ?
+A. Used by one or more learning schemes to come up with classifiers
+B. Used to optimize parameters of those classifiers, or to select a particular one
+C. Used to calculate the error rate of the final, optimized, method
+D. None of these
+A
+
+
+What is the definition of testing set ? it's the independent instances
+A. Used by one or more learning schemes to come up with classifiers
+B. Used to optimize parameters of those classifiers, or to select a particular one
+C. Used to calculate the error rate of the final, optimized, method
+D. None of these
+C
+
+
+What is the definition of validation set ? it's the independent instances
+A. Used by one or more learning schemes to come up with classifiers
+B. Used to optimize parameters of those classifiers, or to select a particular one
+C. Used to calculate the error rate of the final, optimized, method
+D. None of these
+B
+
+
+Is it true that three sets training, validation, test set must be chosen independently (three sets must be mutually exclusive) to achieve better the real world model ?
+A. True
+B. False
+A
+
+
+Difference between holdout and cross-validation method to resolve the problem where we only have a single limited dataset ?
+A. The holdout method reserves a certain amount for testing, and uses the remainder for training
+B. The cross-validation method reserves a certain amount for testing, and uses the remainder for training
+C. In cross-validation, you decide on a fixed number n partitions of the data. Then the data is split into n approximately equal partitions: each in turn is used for testing and the remainder is used for training
+D. B and C
+E. A and C
+D
+
+
+The problems with cross-validation method for dataset splitting are that it might not be representative or its sets overlapping
+A. True
+B. False
+B
+
+
+How to calculate the overall error estimate when using 10-fold cross-validation method for dataset splitting ?
+A. It's the averaged of the 10 error estimates
+B. It's the sum of the 10 error estimates
+C. It's the maximum one among 10 error estimates
+D. It's the minimum one among 10 error estimates
+A
+
+
+The test set very similarly to the validation set, except it's never a part of building or tuning your model ?
+A. True
+B. False
+A
+
+
+Describe the properties of leave-one-out cross-validation ?
+A. The greatest possible amount of data is used for training in each case
+B. The procedure is deterministic: no random sampling is involved
+C. Very computationally expensive
+D. It guarantees a non-stratified sample because there is only one instance in the test set
+E. All of them
+F. A, B, C only
+E
+
+
+The term "hyperparameter" refers to ?
+A. Parameter that can be tuned to optimize the performance of a learning algorithm like k in k-nearest neighbour classifier
+B. From basic parameter that is part of a model, such as a coefficient in a logistic regression
+A
+
+
+How to get a useful estimate of performance for different parameter values ?
+A. Build models using different values of k on the new, smaller training set and evaluate them on the validation set
+B. Build models using different values of k on the new, smaller training set and evaluate them on the test set
+A
+
+
+______ measures how many classifications your algorithm got correct out of every classification it made
+A. Accuracy measure
+B. Recall measure
+C. Precision measure
+D. F1-score measure
+A
+
+
+______ is the percentage of relevant items that your classifier found and calculated as TP/(TP + FN)
+A. Accuracy measure
+B. Recall measure
+C. Precision measure
+D. F1-score measure
+B
+
+
+In confusion matrix, two kinds of errors are (choose 2)
+A. False positive
+B. True positive
+C. False negative
+D. True negative
+A,C
+
+
+In confusion matrix, two kinds of correction are (choose 2)
+A. False positive
+B. True positive
+C. False negative
+D. True negative
+B,D
+
+
+______ is the percentage of items your classifier found that were actually relevant and calculated as TP/(TP + FP)
+A. Accuracy measure
+B. Recall measure
+C. Precision measure
+D. F1-score measure
+C
+
+
+______ is a measure that combines precision and recall is the harmonic mean of precision and recall
+A. Accuracy measure
+B. Recall measure
+C. Precision measure
+D. F1-score measure
+D
+
+
+Precision and recall are tied to each other. As one goes up, the other will go up too ?
+A. True
+B. False
+B
+
+
+Why is the F1 score calculated using the harmonic mean?
+A. The harmonic mean makes the F1 score low when either precision or recall is low
+B. The F1 score is calculated using the arithmetic mean
+C. The harmonic mean will consider precision and recall equally.
+D. The harmonic mean takes less time to compute than the arithmetic mean
+A
+
+
+In practice, different types of classification errors often incur different costs ?
+A. True
+B. False
+A
+
+
+The idea behind cost-sensitive classification (learning) is to take costs into account and make predictions that aim to minimize ______ instead of minimizing ______
+A. The overall costs, misclassifications
+B. Misclassifications, the overall costs
+A
+
+
+Most learning schemes do not perform cost-sensitive learning so simple methods for cost-sensitive learning is:
+A. Re-sampling of instances according to costs
+B. Weighting of instances according to costs
+C. All of them
+D. None of them
+C
+
+
+______ is the principal and most commonly used measure for evaluating numeric prediction
+A. Mean-squared error
+B. Mean absolute error
+A
+
+
+MDL(minimum description length) principle defined as space required to describe a theory and space required to describe the theory's mistakes in which ?
+A. The theory is the classifier
+B. The mistakes are the errors on the training data
+C. All of them
+D. None of them
+C
+
+
+Is it true that in practice Data Preparation is estimated to consume 70-80% of the overall effort ?
+A. True
+B. False
+A
+
+
+Main data cleansing steps include:
+A. Data acquisition and metadata
+B. Converting nominal to numeric
+C. Missing values
+D. Discretization
+E. All of them
+E
+
+
+Understanding data is important task so in terms of how its relevance typical asking questions are:
+A. What data is available for the task ?
+B. Is this data relevant ?
+C. Is additional relevant data available?
+D. What is the number of attributes and its features ?
+E. A, B, C
+F. All of them
+E
+
+
+In data preparation process, several ways to handle missing values are:
+A. Ignore records
+B. Treat missing value as a separate value
+C. Replace with zero, mean, median values
+D. Try to impute the missing values from other fields
+E. All of them
+E
+
+
+In data preparation process, the step data acquisition and metadata is ?
+A. Process of getting data where it may come from many resources like database systems, flat files, spreadsheets and fulfill its meta
+B. Date fields come from many formats so a need to transform them
+C. Process of converting nominal to numeric type like binary fields
+D. Process of solving a problem where some methods require discrete values like Naive bayes classification but some feature's values
+A
+
+
+In data preparation process, the step data discretizationand metadata is ?
+A. Process of getting data can come from many resources like database systems, flat files, spreadsheets and fulfill its meta
+B. Date fields come from many formats so a need to transform them
+C. Process of converting nominal to numeric type like binary fields
+D. Process of solving a problem where some methods require discrete values like Naive bayes classification but some feature's values are not
+D
+
+
+In data preparation process some criteria when doing field selection are ?
+A. Remove fields with no or little variability
+B. Remove a field where almost all values are the same
+C. Remove false predictors which are fields correlated to target behavior
+D. All of them
+D
+
+
+In field selection step, false predictors removed and suppose the output of model is to predict the likelihood of passing a course so should remove which field ?
+A. The student's final grade
+B. The sleeping hours
+C. The studying hours
+D. The student's final grade of previous session
+A
+
+
+A manual approach to finding false predictors is build an initial decision-tree model and consider very strongly predictive fields which if a field by itself provides close to 100% accuracy as "suspects"
+A. True
+B. False
+A
+
+
+Sometimes classes have very unequal frequency like in security > 99 % of web traffics are from normal users. So how to handle the unbalanced data ?
+A. Oversample minority class where it's defined as adding more copies of the minority class
+B. Undersample majority class where it's defined as removing some copies of the majority class
+C. All of them
+D. None of them
+C
+
+
+Clustering is the common unsupervised learning technique where it finds natural grouping of instances given unlabeled data ?
+A. True
+B. False
+A
+
+
+Describe the standard algorithm of k-means ?
+2. Pick a number (K) of cluster centers (at random)
+1. Assign every item to its nearest cluster center (e.g. using Euclidean distance)
+3. Move each cluster center to the mean of its assigned items
+4. Repeat steps 2,3 until convergence
+A. 2, 1, 3, 4
+B. 1, 2, 3, 4
+C, 3, 1, 2, 4
+D. None of them
+A
+
+
+Fill in the blank. K-means algorithm stops when ______ ?
+A. Centroids stabilize (convergence)
+B. Centroids become one
+C. The condition k==0 is true
+D. Centroids become one
+A
+
+
+Which statements are true about K-means (a clustering algorithm)
+A. The number of clusters has to be picked in advance
+B. Results can vary significantly depending on initial choice of seeds
+C. Can get trapped in local minimum
+D. All of them
+D
+
+
+Kmean ++ is the improved version of Kmean where it solves problems of sub-optimal clustering ?
+A. True
+B. False
+A
+
+
+Hierarchical clustering only works with numeric attributes and K-means works with symbolic attributes
+A. True
+B. False
+B
+
+
+Which of the following is not an example of clustering application ?
+A. Find groups of products to personalize the user experience
+B. Find groups of similar stars and galaxies
+C. Finding groups of gene with similar expressions
+D. None of them
+D
+
+
+In hierarchical clustering where it builds a hierarchy of clusters. One strategy that each instance starts in its own cluster, and pairs of clusters are merged as one moves up the hierarchy is (also called Agglomerative)
+A. Bottom-up approach
+B. Top-down approach
+A
+
+
+In hierarchical clustering where it builds a hierarchy of clusters. One strategy that all instances start in one cluster, and splits are performed recursively as one moves down the hierarchy (also called Divisive)
+A. Bottom-up approach
+B. Top-down approach
+B
+
+
+In clustering, the algorithm K-means got its name typically by its internal working. What do "K", "mean" mean?
+A. K means number of chosen clusters, "mean" means mean distance
+B. "mean" means number of chosen clusters, K means mean distance
+A
+
+
+In association learning, ______ refers to one test/attribute-value pair ?
+A. Item
+B. Item set
+C. Support of an itemset
+D. Frequent itemset
+A
+
+
+In association learning, ______ refers to all items occurring in a rule?
+A. Item
+B. Item set
+C. Support of an itemset
+D. Frequent itemset
+B
+
+
+In association learning, ______ refers to number of instances correctly covered by association rule?
+A. Item
+B. Item set
+C. Support of an itemset
+D. Frequent itemset
+C
+
+
+In association rules, suppose (A,B) is frequent. Since each occurrence of A, B includes both A and B, then both A and B must also be frequent ?
+A. True
+B. False
+A
+
+
+In association learning, ______ is Item set with at least the minimum support count (sup(I) >= minsup)?
+A. Item
+B. Item set
+C. Support of an itemset
+D. Frequent itemset
+D
+
+
+Association rule R: Itemset1 => Itemset2 with Itemset1, 2 are disjoint and Itemset2 is non-empty. What does it mean ?
+A. If transaction includes Itemset1 then it also has Itemset2
+B. The transaction contains either of them
+C. The transaction contains none of them
+D. None of them
+A
+
+
+Given frequent set (A,B,E), what are the number of possible association rules?
+A. 8
+B. 7
+C. 6
+D. 9
+B
+
+
+In association rules learning, the rule (butter, bread) => (milk) has a confidence of 1.0 in the database, which means that
+A. 100% of the times a customer buys butter and bread, milk is bought as well
+B. 1% of the times a customer buys butter and bread, milk is bought as well
+C. The confidence is not an indication of how often the rule has been found to be true
+D. None of these
+A
+
+
+The association rules that satisfy minimum support and minimum confidence at the same time is called strong association rules ?
+A. True
+B. False
+A
+
+
+Standard process of finding strong association rules are ?
+A. A minimum support threshold is applied to find all frequent itemsets in a database then a minimum confidence constraint is applied to these frequent itemsets in order to form rules
+B. A minimum confidence constraint is applied to find all frequent itemsets in a database then a minimum support threshold is applied to these frequent itemsets in order to form rules
+A
+
+
+The roles of visualization are ?
+A. Support interactive exploration
+B. Help in effective result presentation
+C. For quickly see a number of patterns, especially movement, boundaries, and natural
+shapes
+D. All of them
+D
+
+
+Histogram, Tukey box plot are examples of visualization in ?
+A. 1-D
+B. 2-D
+C. 3-D
+D. More dimensions (> 3)
+A
+
+
+Scatter plot, heatmap are examples of visualization in ?
+A. 1-D
+B. 2-D
+C. 3-D
+D. More dimensions (>3)
+B
+
+
+Contour plot is a plane section of the three-dimensional graph of the function f(x, y) parallel to the (x, y)-plane ?
+A. True
+B. False
+A
+
+
+Scatter-plot matrix, Parallel Coordinates, Chernoff Faces are examples of visualization in ?
+A. 1-D
+B. 2-D
+C. 3-D
+D. More dimensions (>3)
+D
+
+
+What is more focused on in supervised learning ?
+A. The outcome variable. In scatterplots, the outcome variable is typically associated with the y axis.
+B. (for the purpose of data reduction or clustering), basic plots that convey relationships (such as scatterplots) are preferred
+A
+
+
+What is more focused on in unsupervised learning ?
+A. The outcome variable.In scatterplots, the outcome variable is typically associated with the y axis.
+B. (for the purpose of data reduction or clustering), basic plots that convey relationships (such as scatterplots) are preferred
+B
+
+
+What are scatter plots useful for?
+A. Important plot in the prediction task
+B. For comparing a single statistic (e.g., average, count, percentage) across groups
+C. For visualizing correlation tables
+D. For visualizing missing values in the data
+A
+
+
+What are box plots useful for?
+A. Important plot in the prediction task
+B. For comparing a single statistic (e.g., average, count, percentage) across groups
+C. For visualizing correlation tables
+D. For comparing subgroups by generating side-by-side boxplots, or for looking at distributions over time by creating a series of boxplots
+D
+
+
+Which of the following is a graphical display of numerical data where color is used to denote values ?
+A. Heatmap
+B. Scatterplot matrix
+C. Boxplot
+D. Bar chart
+A
+
+
+The task of summarization, unlike predictive modeling which tries to predict the future, the goal here is to look back at historical data and summarize it concisely what is new and different, unexpected
+A. True
+B. False
+A
+
+
+In KEFIR (Key Findings Reporter) approach in summarization was:
+A. Analyze all possible deviations
+B. Select interesting findings
+C. Augment key findings with explanations of plausible causes and recommendations of appropriate actions
+D. Convert findings to a user-friendly report with text and graphics
+E. All of them
+E
+
+
+For Healthcare cost problem, to find all possible deviations, KEFIR examined its search space, which had two main hierarchies (1. the data was broken down by population group, 2. the data was also broken down by the medical problem area)
+A. True
+B. False
+A
+
+
+In the task of summarization (KEFIR Approach), to select interesting findings, interestingness = projected deviation x impact_factor x savings_percentage ?
+A. True
+B. False
+A
+
+
+In the task of summarization(KEFIR Approach), hierarchical recommendation rules define appropriate intervention strategies for important measures and study areas
+A. True
+B. False
+A
+
+
+In the task of summarization(KEFIR Approach), explanation is a measure is explained by finding the path of related measures with the highest impact
+A. True
+B. False
+A
+
+
+Which statements are true about direct marketing paradigm ?
+A. Its purpose is finding most likely prospects to contact
+B. Number of targets is usually much smaller than number of prospects
+C. Some applications like customer acquisition, cross-sell, attrition
+D. All of them
+D
+
+
+The approach usually taken in direct marketing evaluation is ?
+1. Develop a target model
+2. Score all prospects and rank them by decreasing score
+3. Select top P% of prospects for action
+A. 1, 2, 3
+B. 2, 1, 3
+C. 3, 2, 1
+A
+
+
+In direct marketing evaluation, Gains and Lift are measures that can be used to measure the performance on the top P%
+A. True
+B. False
+A
+
+
+Lift is a measure of the performance simply the ratio of these values: target response divided by average response.
+A. True
+B. False
+A
+
+
+In Lift evaluation, if some rule had a lift of _____ then two events are independent of each other, no rule can be drawn involving those two events
+A. 1
+B. > 1
+A
+
+
+In Lift evaluation, If the lift is that lets us know the degree to which those two occurrences are dependent on one another
+A. 1
+B. > 1
+B
+
+
+Area Under the Curve (AUC) is defined as the difference between Gains and Random Curves ?
+A. True
+B. False
+A
+
+
+Lift quality is measured as (AUC(Model) - AUC(Random))/(AUC(Perfect) -AUC(Random)) so
+A. For a perfect model, Lquality = 100%
+B. For a random model, Lquality = 0
+C. For a random model, Lquality = 100%
+D. A and B
+D
+
+
+In feasibility assessment, Expected Profit (P) depends on ?
+A. Cost C
+B. Benefit B
+C. Target rate T
+D. Lift(P)
+E. All of them
+E
+
+
+Among empirical Observations about Lift, for good models, usually Lift(P) is monotically decreasing with P
+A. True
+B. False
+A
+
+
+Data mining (or simple analysis) on people may come with a profile that would raise controversial issues of
+A. Discrimination
+B. Privacy
+C. Security
+D. All of them
+D
+
+
+Information collected for one purpose be used for mining data for another purpose involved which controversial issue of data mining ?
+A. Discrimination
+B. Privacy
+C. Security
+D. All of them
+B
+
+
+Some technical solutions can limit privacy invasion in data mining are(it works because data mining looks for patterns, not people)?
+A. Replacing sensitive personal data with public personal data
+B. Give randomized outputs like salary + random
+C. A and B
+C
+
+
+The main goal of Total Information Awareness (TIA) program is apply data mining to looking for things that involved:
+A. Discrimination
+B. Privacy
+C. Security
+D. All of them
+C
+
+
+Which of the following is true about analytic approach in data mining to threat detection
+A. It invade privacy
+B. It generates millions of false positives
+C. Combining multiple models and link analysis can reduce false positives
+D. All of them
+D
+
+
+Some challenges for data mining
+A. Dealing with complex, multi-media, structured data
+B. Dealing with tera-bytes and peta-bytes
+C. Privacy issues
+D. All of them
+D
+
+
+The data mining central quest is finding true patterns and avoid overfitting (false patterns due to randomness)
+A. True
+B. False
+A
+
+
+In data mining, suppose after a process of data mining based on a person's employment, issuing mortgages, age, national ... the bank finds a rule that says that person is more likely to default on mortgages so they deny mortgages for that person. The situation involved mainly:
+A. Discrimination
+B. Privacy
+C. Security
+D. All of them
+A
+
+
+Which statements are true about analytic technology ?
+A. Has the potential to reduce the current high rate of false positives
+B. Just one additional tool to help analysts
+C. Combining multiple models and link analysis can reduce false positives
+D. All of them
+D
+
+
+Bonferroni's principle states that if the expected number of occurrences of the events looking for that is significantly larger than the number of real instances you hope to find then it's mostly bogus ?
+A. True
+B. False
+A
+
+
+
+1. What are some sources of data can be considered as "big data"
+A. transactions from banking and business operations
+B. web traffics on the internet
+C. call logs of a telecommunications provider like AT&T
+D. all of the these
+D
+
+
+2. The term "data mining" refers to the process of discovering useful patterns in data ?
+A. True
+B. False
+A
+
+
+3. What is not an application of data mining in information security fields ?
+A. Auditing: analyze the audit data and determine if there are any abnormalities
+B. Intrusion detection: examine the activities and determine whether unauthorized intrusions have occurred or will occur
+C. Customer Modeling: finding the habits of customers for competitive advantages
+D. Data quality: examine the data and determine whether the data is incomplete
+C
+
+
+4. The fields of machine learning and data mining is known as Knowledge Discovery
+A. True
+B. False
+A
+
+
+5. The informal definition of machine learning: "the field of study that gives computers the ability to learn without being explicitly programmed"
+A. True
+B. False
+A
+
+
+6. What is the valid Knowledge Discovery process circle
+A. Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, Deployment
+B. Business Understanding, Data Preparation, Data Understanding, Modeling, Evaluation, Deployment
+A. Business Understanding, Data Understanding, Data Preparation, Evaluation, Modeling, Deployment
+A. Data Understanding, Business Understanding, Data Preparation, Modeling, Evaluation, Deployment
+A
+
+
+7. Machine learning or "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E". If apply to "classify phishing emails" what is the P
+A. the probability of being classified correctly
+B. classifying phishing email task
+C. a data of labeled emails
+D. none of these
+A
+
+
+11. In classification problems of machine learning, we are instead trying to predict results in a continuous output?
+A. True
+B. False
+B
+
+
+12. Supervised Learning can be categorized into "regression" and "classification" problems ?
+A. True
+B. False
+A
+
+
+13. Choose one algorithm that is not of type supervised learning?
+A. Linear regression
+B. Decision tree
+C. Linear Support Vector Machine
+D. K-means
+D
+
+
+14. In linear regression, we are trying to:
+A. make a best straight line which passes through the training data points
+B. constructs a hyperplane which has the largest distance to the nearest training data points of any class (largest margin)
+C. applying Bayes' theorem with strong independence assumptions between every pair of features
+D. None of these
+A
+
+
+15. Which of the problems below are best addressed using a supervised learning algorithm
+A. from the network flow of a process in computer, predict weather or not it's related to a botnet
+B. from a large malware samples, try to category them based on its behavior
+C. from the web access logs, predict if any sessions come from abnormal users
+D. All of these
+A,C
+
+
+
+
+
+
+
+Nâng cấp để gỡ bỏ quảng cáo
+Chỉ 35,99 US$/năm
+16. Weka is a machine learning software to solve data mining problems ?
+A. False
+B. True
+B
+
+
+17. Which are some problems of finding patterns ?
+A. most patterns are not interesting
+B. patterns may be inexact
+C. data may be garbled or missing
+D. all of these
+D
+
+
+18. Which of the problems below are best addressed using a unsupervised learning algorithm
+A. from the network flow of a process in computer, predict weather or not it's related to a botnet
+B. from a large malware samples, try to category them based on its behavior
+C. from the web access logs, predict if any sessions come from abnormal users
+D. All of these
+B
+
+
+19. To make a good predictor (the model after feeding the training data into algorithm) we can change the algorithm parameters ?
+A. True
+B. False
+A
+
+
+20. The term "overfitting" in machine learning refers what ?
+A. it is too dependent on that data and it is likely to have a higher error rate on new unseen data
+B. it is not adequately capture the underlying structure of the data and such a model will tend to have poor predictive performance
+A
+
+
+1. what are the forms of input that a machine learning might take ?
+A. concepts
+B. instances
+C. attributes
+D. all of them
+D
+
+
+2. what is a concept which is the input form of machine learning ?
+A. kinds of things that can be learned or what we are trying to find—the result of the learning process
+B. an individual, independent example of the concept to be learned
+C. is characterized by the values of attributes that measure different aspects of the instance
+D. None of them
+A
+
+
+3. what is an instance which is the input form of machine learning ?
+A. kinds of things that can be learned or what we are trying to find—the result of the learning process
+B. an individual, independent example of the concept to be learned
+C. is characterized by the values of attributes that measure different aspects of the instance
+D. None of them
+B
+
+
+4. what is an attribute which is the input form of machine learning ?
+A. kinds of things that can be learned or what we are trying to find—the result of the learning process
+B. an individual, independent example of the concept to be learned
+C. is characterized by the values of attributes that measure different aspects of the instance
+C
+
+
+5. what are basically different styles of learning commonly appear in data mining applications ?
+A. Classification learning, Association learning
+B. Classification learning, Association learning, Clustering
+C. Classification learning, Association learning, Clustering, Numeric prediction
+D. Classification learning
+C
+
+
+6. describe classification learning style ?
+A. the learning scheme is presented with a set of classified examples from which it is expected to learn a way of classifying unseen examples
+B. any association among features is sought, not just ones that predict a particular class value
+C. groups of examples that belong together are sought
+D. the outcome to be predicted is not a discrete class but a numeric quantity
+A
+
+
+7. describe association learning ?
+A. the learning scheme is presented with a set of classified examples from which it is expected to learn a way of classifying unseen examples
+B. any association among features is sought, not just ones that predict a particular class value
+C. groups of examples that belong together are sought
+D. the outcome to be predicted is not a discrete class but a numeric quantity
+B
+
+
+8. describe clustering learning ?
+A. the learning scheme is presented with a set of classified examples from which it is expected to learn a way of classifying unseen examples
+B. any association among features is sought, not just ones that predict a particular class value
+C. groups of examples that belong together are sought
+D. the outcome to be predicted is not a discrete class but a numeric quantity
+C
+
+
+9. describe numeric prediction (regression) learning ?
+A. the learning scheme is presented with a set of classified examples from which it is expected to learn a way of classifying unseen examples
+B. any association among features is sought, not just ones that predict a particular class value
+C. groups of examples that belong together are sought
+D. the outcome to be predicted is not a discrete class but a numeric quantity
+D
+
+
+10. it's called supervised learning because its scheme operates under supervision by being provided with the actual outcome for each of the training examples
+A. true
+B. false
+A
+
+
+11. suppose in the weather data an attribute has values sunny, overcast, and rainy. So its attributes not belong to which type ?
+A. nominal attribute
+B. ordinal attribute
+C. numeric (continuous) attribute
+D. none of them
+C
+
+
+12. nominal attributes differ from ordinal attributes in which it's the ones that make it possible to rank order the categories (like hot > mild > cool)
+A. true
+B. false
+B
+
+
+13. what are the challenges when gathering data together?
+A. different data sources
+B. external data may be required
+C. type and level of data aggregation
+D. all of them
+D
+
+
+14. ARFF file is an ASCII text file that describes a list of instances sharing a set of attributes in weka ?
+A. true
+B. false
+A
+
+
+15. some issues like missing values, inaccurate values, unbalanced data are all insignificance things in preparing the input step ?
+A. true
+B. false
+B
+
+
+
+
+Nâng cấp để gỡ bỏ quảng cáo
+Chỉ 35,99 US$/năm
+1. "knowledge" pattern representation is the process of representing the patterns that can be discovered by machine learning
+A. true
+B. false
+A
+
+
+2. __ is the way of representing the output from machine learning that is the same form as the input and can be considered as a lookup table
+A. decision table
+B. decision tree
+C. decision rule
+D. linear model
+A
+
+
+3. which statements are true for decision tree pattern representation ?
+A. Nodes in a decision tree involve testing a particular attribute. Usually, the test compares an attribute value with a constant.
+B. Leaf nodes give a classification that applies to all instances that reach the leaf, or a set of classifications
+C. To classify unknown instance it's is routed down the tree
+D. All of them
+D
+
+
+4. In decision tree pattern representation, if an attribute that is tested at a node is a _ one, the number of children is usually the number of possible values of the attribute
+A. nominal
+B. numeric
+A
+
+
+5. In decision tree pattern representation, if the attribute is numeric, the test at a node usually determines whether its value is greater or less than a predetermined constant, giving a two-way split
+A. true
+B. false
+A
+
+
+6. In decision tree pattern representation, a simple solution is to record the number of elements in the training set that go down each branch and to use the most popular branch if the value for a test instance is missing
+A. true
+B. false
+A
+
+
+7. which statements are true for converting from trees to rules ?
+A. one rule is generated for each leaf
+B. produces rules that are unambiguous
+C. resulting rules are unnecessarily complex
+D. all of them
+D
+
+
+8. Decision rules are make up two components antecedent (precondition) and consequent(conclusion) what are they ?
+A. antecedent is a series of tests just like the tests at nodes in decision trees. Consequent gives a class (classes) assigned by a rule
+B. consequent is a series of tests just like the tests at nodes in decision trees. Antecedent gives a class (classes) assigned by a rule
+A
+
+
+9. which statements are false for converting from rules to trees ?
+A. tree cannot easily express disjunction between rules (like the same structure but different attributes)
+C. corresponding tree may contains identical subtrees
+D. it's easier process compared with the inverse
+B. None of them
+D
+
+
+10. some advantages of using decision rules over decision trees are:
+A. new rules can be added to an existing rule set without disturbing ones already there, whereas to add to a tree structure may require reshaping the whole tree
+B. for binary classification problems just need to define rules for only one class
+C. None of them
+D. All of them
+D
+
+
+
+
+Nâng cấp để gỡ bỏ quảng cáo
+Chỉ 35,99 US$/năm
+11. instance-based knowledge representation uses the instances themselves to represent what is learned, rather than inferring a rule set or decision tree and storing it instead ?
+A. true
+B. false
+A
+
+
+12. which statements are true about instance-based learning ?
+A. instance-based learning is lazy, deferring the real work as long as possible
+B. training instances are searched for instance that most closely resembles new instance
+C. k-nearest-neighbor method is of this type
+D. All of these
+D
+
+
+13. 2-D representation, venn diagram, probabilistic assignment and dendrogram are some output forms of diagrams when clusters rather than a classifier is learned ?
+A. true
+B. false
+A
+
+
+14. differences between relational and propositional decision rules ?
+A. propositional decision rules are rules involved comparing an attribute-value to a constant
+B. relational decision rules exists because a need for comparing attributes with each other
+C. None of them
+D. All of them
+D
+
+
+15. for classification, linear model representation defines a decision boundary (hyperplane) which is a line separating classes
+A. true
+B. false
+A
+
+
+1. opposed to 1R method, naive bayes's modeling use all attributes and allow them to make contributions to the modeling ?
+A. true
+B. false
+A
+
+
+2. two assumptions of attributes that naive bayes makes are (all these assumption is almost never correct in real datasets)?
+A. attributes are equally important and statistically independent
+B. attributes are equally important and statistically dependent
+{A}
+A
+
+
+3. suppose Bayes's rule is P(H|E) = P(E|H)*P(H)/P(E) where E is the evidence (attribute values), H is the hypothesis (which class). Probability of event before evidence is seen is
+A. P(H)
+B. P(H | E)
+C. none of these
+D. P(E)
+A
+
+
+4. suppose Bayes's rule is P(H|E) = P(E|H)*P(H)/P(E) where E is the evidence (attribute values), H is the hypothesis (which class). Probability of event after evidence is seen is
+A. P(H)
+B. P(H | E)
+C. none of these
+D. P(E)
+B
+
+
+5. which statements are true about the zero-frequency problems ?
+A. occurs if a particular attribute value does not occur in the training set in conjunction with every class value
+B. a posteriori probability will also be zero (regardless of how likely the other values are)
+C. fixed by smoothing method (Laplace estimator)
+D. all of them
+D
+
+
+6. Why can we ignore the denominator of Bayes Theorem when calculating the probabilities of each class?
+A. it's the same for all classes
+B. it can't be ignored
+C. it doesn't have a denominator
+D. it will add error to the final probability of every class
+A
+
+
+7. what does zero-frequency problem in Naive Bayes modeling do is by adding 1 to the count for every attribute value-class combination ?
+A. true
+B. false
+A
+
+
+8. in Naive Bayes modeling how does it handle missing values ?
+A. just ignore missing attributes from calculation
+B. not problem at all because of zero-frequency problem fixing
+C. all of them
+D. none of them
+A
+
+
+9. in Naive Bayes modeling it usually handles numeric attributes by assuming that they have a "normal" or "Gaussian" probability distribution and then compute the most likely parameters of this Gaussian like mean and stand deviation ?
+A. true
+B. false
+A
+
+
+10. popular applications of Naive Bayes classification are ?
+A. email spam filtering
+B. news similarity
+C. product's reviews evalution
+D. all of them
+D
+
+
+11. suppose using Naive Bayes classification for email spam filtering, after you learned that probabilities of event 'spam' and 'not_spam' after evidence are 0.4, 0.6 corresponding. So the email is classified as:
+A. spam
+B. not spam
+B
+
+
+1. the general steps for constructing decision trees are first select an attribute to place at the root node, and make one branch for each possible value, then splits up the example set into subsets, one for every value of the attribute, finally repeat recursively for each branch, using only instances that reach the branch
+A. true
+B. false
+A
+
+
+2. which dataset has the largest information impurity
+A. a set of 5 samples all have the same class
+B. a set of 10 samples all have 5 class A, 5 class B
+C. a set of 20 samples all have the same class
+D. All of them
+B
+
+
+3. which statements are not true about decision tree ?
+A. an internal node is a test on an attribute or which feature to split on
+B. a branch represents an outcome of the test
+C. a leaf node represents a class label or class label distribution
+D. all of them
+D
+
+
+4. _ is the entropy of the class distribution and it represents the expected amount of information that would be needed to classify to one class
+A. impurity measure
+B. information gain
+A
+
+
+5. some criterions for attribute selection are ?
+A. the one which will result in the largest tree
+B. choose an attribute that has lowest impurity
+C. an attribute whose information gain is greatest among others
+D. B and C
+E. All of them
+D
+
+
+6. when does the process of building a decision tree stop ?
+A. when the data cannot be split any further or no information gain on every leaves
+B. when information gain on one feature greater than 0
+C. when information gain on every features greater than 0
+D. when no information gain on one feature
+A
+
+
+7. entropy(impurity measure) is _ when all classes are equally likely and _ when one of the classes has probability 1
+A. maximal, minimal
+B. minimal, maximum
+A
+
+
+8. what is the formula of computing information gain ?
+A. information before splitting - information after splitting
+B. information after splitting- information before splitting
+A
+
+
+9. Entropy is a function that satisfies all three properties which are ?
+A. When node is pure, measure should be zero
+B. When impurity is maximal (i.e. all classes equally likely), measure should be maximal
+C. Measure should obey multistage property (i.e. decisions can be made in several stages)
+D. all of them
+D
+
+
+10. In decision tree, information gain is biased towards choosing attributes with a small number of values
+A. true
+B. false
+B
+
+
+11. The overall effect of having attributes with a large number of distinct values is ?
+A. the information gain measure tends to prefer attributes with large numbers of possible values
+B. this may result in overfitting (selection of an attribute that is non-optimal for prediction)
+C. all of them
+D. none of them
+C
+
+
+12. the purpose of gain ratio or weighted information gain is that making an importance of attribute decreases as intrinsic information gets larger
+A. true
+B. false
+A
+
+
+13. some limitations of decision tree algorithm are ?
+A. many implementations use divide-and-conquer method for construction so it's not globally optimal solution
+B. they potentially overfit the data
+C. all of them
+D. none of them
+C
+
+
+14. which statements are true about "gain ratio" ?
+A. should be large when data is evenly spread and small when all data belong to one branch
+C. takes number and size of branches into account when choosing an attribute
+B. a modification of the information gain that reduces its bias on high-branch attributes
+D. all of them
+D
+
+
+15. Gini impurity, information gain ratio or information entropy are all functions for:
+A. Impurity measure
+B. The expected information gain (or the change in information entropy from a prior state)
+A
+
+
+1. ID3 algorithm is an extension of algorithm C.45 with some improvements like numeric attributes, missing values, pruning strategy?
+A. true
+B. false
+B
+
+
+2. which statements are false about how C.45 handles numeric attributes ?
+A. the standard method is binary splits
+B. Unlike nominal attributes, every attribute has many possible split points
+C. To choose "best" split point, evaluate info gain for every possible split point of attribute
+D. this process is less computationally demanding than for nominal attributes
+D
+
+
+3. which statements are true when comparing binary(on numeric attribute) vs multiway (on nominal attribute) splits in C.45?
+A. splitting (multi-way) on a nominal attribute exhausts all information in that attribute
+B. numeric attribute may be tested several times along a path in the tree
+C. disadvantages of the tree using binary split are messy and difficult to understand
+D. all of them
+D
+
+
+4. because the decision tree models tend to _ so one way to solve this problem is to prune the tree
+A. overfitting
+B. underfitting
+A
+
+
+5. _ is one of pruning strategy to prevent overfitting in the decision tree are ?
+A. postpruning which take a fully-grown decision tree and discard unreliable parts
+B. postpruning which stop growing a branch when information becomes unreliable
+A
+
+
+6. _ is one of pruning strategy to prevent overfitting in the decision tree are ?
+A. prepruning which take a fully-grown decision tree and discard unreliable parts
+B. prepruning which stop growing a branch when information becomes unreliable
+B
+
+
+7. the reason why most decision tree builders prefer postprune over prepruning is there're some situations occur in which two attributes individually seem to have nothing to contribute but are powerful predictors when combined
+A. true
+B. false
+A
+
+
+8. which statements are true about postpruning ?
+A. two prunning operations are subtree replacement and subtree raising
+B. to decide weather or not to prune some strategies are error estimation, significance testing ...
+C. some subtrees might be due to chance effects
+D. all of them
+D
+
+
+9. which statements are true about prepruning in decision tree ?
+A. based on statistical significance test
+B. most popular test is chi-squared test
+C. Quinlan's classic tree learner ID3 used chi-squared test in addition to information gain
+D. all of them
+D
+
+
+10. In decision tree optimization, _ is a potentially time-consuming operation
+A. subtree raising
+B. subtree replacement
+A
+
+
+1. The Classification And Regression Tree CART) algorithm used for _ modeling problems
+A. classification tree
+B. regression tree
+C. classification tree or regression tree
+C
+
+
+2. which statements are true about CART decision-tree algorithm ?
+A. Non-parametric (independent of the statistical distribution of the training data)
+B. Can model continuous (regression trees) or categorical (classification trees) target variables
+C. Can use continuous and non-continuous predictor variables
+D. All of them
+D
+
+
+3. decision tree CART algorithm is multivariate?
+A. true
+B. false
+B
+
+
+4. In decision tree CART model building, at each node in the tree the remaining data (from training points) are split into two groups that have maximum dissimilarity
+A. true
+B. false
+A
+
+
+5. In decision tree CART whose features including ?
+A. automatically selects relevant fields
+B. no data preprocessing needed
+C. missing value tolerant
+D. all of them
+D
+
+
+6. In decision tree CART model building, which metrics used by CART ?
+A. Gini impurity
+B. Information gain (based on the concept of entropy)
+A
+
+
+7. which criteria decision tree CART use to optimize tree selection ?
+A. Deciding on the best tree after growing and pruning
+B. Balancing simplicity against accuracy
+C. All of them
+D. None of them
+C
+
+
+8. In decision tree CART model building how it handle missing values ?
+A. it treats missing as a distinct categorical value
+B. it delete cases that have missing values
+C. it freeze case in node in which missing splitter encountered
+D. it allow cases with missing split variable to follow majority
+E. it uses a more refined method —a surrogate
+E
+
+
+9. A primary splitter is the best splitter of a node so a surrogate (a method used to handle missing values in CART) is a splitter that splits in a fashion similar to the primary
+A. true
+B. false
+A
+
+
+10. CART algorithm is a decision tree algorithm ? term-73
+A. true
+B. false
+A
+
+
+1. which statements are false about linear regression
+A. the goal is to find a line or a linear combination of its attributes
+B. work most naturally with numeric attributes
+C. weights are calculated from the training data
+D. to find the best line, the line must maximum the cost function
+D
+
+
+2. the squared error function equals zero for linear regression when:
+A. the line should pass all points (instances) in training dataset
+B. the line should not pass all points (instances) in training dataset
+A
+
+
+3. suppose use gradient descent to find linear regression model parameters if its learning is too small what will happen ?
+A. gradient descent can be slow to converge
+B. it may fail to converge or even diverge
+A
+
+
+4. what is the purpose of gradient descent algorithm?
+A. to find the point at local minimum or global minimum of the cost function
+B. to find the point at local maximum or global maximum of the cost function
+A
+
+
+5. Logistic Regression differs from Linear Regression because the output of a Logistic Regression model ranges from -∞ to +∞
+A. true
+B. false
+B
+
+
+6. which statements are true about logistic regression ?
+A. the output of the model is the estimated probability that class 1 on an instance as input
+B. its model represented by a logistic(sigmod) function
+C. decision boundary for two-class logistic regression is where probability equals 0.5
+D. all of them
+D
+
+
+7. The goal of maximum log-likelihood in logistic regression is to find parameters of decision boundary line so the cost function is minimized?
+A. true
+B. false
+A
+
+
+8. which statements are true about instance-based learning ?
+A. In instance-based learning the distance function defines what is learned
+B. Most instance-based schemes use Euclidean distance
+C. for nominal attributes the distance is set to 1 if values are different, 0 if they are equal
+D. all of them
+D
+
+
+9. the goal of normalization is make every datapoint have the same scale so each feature is equally important
+A. true
+B. false
+A
+
+
+10. _ algorithm is of type instance-based learning and _ algorithm if of type clustering ?
+A. k nearest neighbor, k means
+B. k means, k nearest neighbor
+A
+
+
+1. what is the definition of training set ?
+A. used by one or more learning schemes to come up with classifiers
+B. used to optimize parameters of those classifiers, or to select a particular one
+C. used to calculate the error rate of the final, optimized, method
+D. none of these
+A
+
+
+2. what is the definition of testing set ? it's the independent instances
+A. used by one or more learning schemes to come up with classifiers
+B. used to optimize parameters of those classifiers, or to select a particular one
+C. used to calculate the error rate of the final, optimized, method
+D. none of these
+C
+
+
+3. what is the definition of validation set ? it's the independent instances
+A. used by one or more learning schemes to come up with classifiers
+B. used to optimize parameters of those classifiers, or to select a particular one
+C. used to calculate the error rate of the final, optimized, method
+D. none of these
+B
+
+
+4. is it true that three sets training, validation, test set must be chosen independently (three sets must be mutually exclusive) to achieve better the real world model ?
+A. true
+B. false
+A
+
+
+5. difference between holdout and cross-validation method to resolve the problem where we only have a single limited dataset ?
+A. The holdout method reserves a certain amount for testing, and uses the remainder for training
+B. The cross-validation method reserves a certain amount for testing, and uses the remainder for training
+C. In cross-validation, you decide on a fixed number n partitions of the data. Then the data is split into n approximately equal partitions: each in turn is used for testing and the remainder is used for training
+D. B and C
+E. A and C
+D
+
+
+6. The problems with cross-validation method for dataset splitting are that it might not be representative or its sets overlapping
+A. true
+B. false
+B
+
+
+7. how to calculate the overall error estimate when using 10-fold cross-validation method for dataset splitting ?
+A. it's the averaged of the 10 error estimates
+B. it's the sum of the 10 error estimates
+C. it's the maximum one among 10 error estimates
+D. it's the minimum one among 10 error estimates
+A
+
+
+8. the test set very similarly to the validation set, except it's never a part of building or tuning your model ?
+A. true
+B. false
+A
+
+
+9. describe the properties of leave-one-out cross-validation ?
+A. the greatest possible amount of data is used for training in each case
+B. the procedure is deterministic: no random sampling is involved
+C. very computationally expensive
+D. It guarantees a non-stratified sample because there is only one instance in the test set
+D. all of them
+E. A, B, C
+D
+
+
+10. The term "hyperparameter" refers to ?
+A. parameter that can be tuned to optimize the performance of a learning algorithm like k in k-nearest neighbour classifier
+B. from basic parameter that is part of a model, such as a coefficient in a logistic regression
+A
+
+
+11. how to get a useful estimate of performance for different parameter values ?
+A. build models using different values of k on the new, smaller training set and evaluate them on the validation set
+B. build models using different values of k on the new, smaller training set and evaluate them on the test set
+A
+
+
+1. _ measures how many classifications your algorithm got correct out of every classification it made
+A. accuracy measure
+B. recall measure
+C. precision measure
+D. F1-score measure
+A
+
+
+2. _ is the percentage of relevant items that your classifier found and calculated as TP/(TP + FN)
+A. accuracy measure
+B. recall measure
+C. precision measure
+D. F1-score measure
+B
+
+
+3. In confusion matrix, two kinds of errors are (choose 2)
+A. false positive
+B. true positive
+C. false negative
+D. true negative
+A,C
+
+
+4. In confusion matrix, two kinds of correction are (choose 2)
+A. false positive
+B. true positive
+C. false negative
+D. true negative
+B,D
+
+
+5. _ is the percentage of items your classifier found that were actually relevant and calculated as TP/(TP + FP)
+A. accuracy measure
+B. recall measure
+C. precision measure
+D. F1-score measure
+C
+
+
+6. is a measure that combines precision and recall is the harmonic mean of precision and recall
+A. accuracy measure
+B. recall measure
+C. precision measure
+D. F1-score measure
+D
+
+
+7. precision and recall are tied to each other. As one goes up, the other will go up too ?
+A. true
+B. false
+B
+
+
+8. why is the F1 score calculated using the harmonic mean?
+A. The harmonic mean makes the F1 score low when either precision or recall is low
+B. The F1 score is calculated using the arithmetic mean
+C. The harmonic mean will consider precision and recall equally.
+D. The harmonic mean takes less time to compute than the arithmetic mean
+A
+
+
+9. In practice, different types of classification errors often incur different costs ?
+A. true
+B. false
+A
+
+
+10. the idea behind cost-sensitive classification (learning) is to take costs into account and make predictions that aim to minimize _ instead of minimizing misclassifications
+A. the overall costs, misclassifications
+B. misclassifications, the overall costs
+A
+
+
+11. Most learning schemes do not perform cost-sensitive learning so simple methods for cost-sensitive learning is:
+A. Re-sampling of instances according to costs
+B. Weighting of instances according to costs
+C. all of them
+D. none of them
+C
+
+
+12. _ is the principal and most commonly used measure for evaluating numeric prediction
+A. Mean-squared error
+B. Mean absolute error
+A
+
+
+13. MDL(minimum description length) principle defined as space required to describe a theory and space required to describe the theory's mistakes in which ?
+A. the theory is the classifier
+B. the mistakes are the errors on the training data
+C. all of them
+D. none of them
+C
+
+
+1. Is it true that in practice Data Preparation is estimated to consume 70-80% of the overall effort ?
+A. true
+B. false
+A
+
+
+2. Main data cleansing steps include:
+A. data acquisition and metadata
+B. converting nominal to numeric
+C. missing values
+D. discretization
+D. all of them
+D
+
+
+3. understanding data is important task so in terms of how its relevance typical asking questions are:
+A. what data is available for the task ?
+B. is this data relevant ?
+C. is additional relevant data available?
+D. what is the number of attributes and its features ?
+E. A, B, C
+F. All of them
+E
+
+
+5. in data preparation process, several ways to handle missing values are:
+A. ignore records
+B. treat missing value as a separate value
+C. replace with zero, mean, median values
+D. try to impute the missing values from other fields
+E. all of them
+E
+
+
+6. in data preparation process, the step data acquisition and metadata is ?
+A. process of getting data where it may come from many resources like database systems, flat files, spreadsheets and fulfill its meta
+B. date fields come from many formats so a need to transform them
+C. process of converting nominal to numeric type like binary fields
+D. process of solving a problem where some methods require discrete values like Naive bayes classification but some feature's values
+A
+
+
+7. in data preparation process, the step data discretizationand metadata is ?
+A. process of getting data can come from many resources like database systems, flat files, spreadsheets and fulfill its meta
+B. date fields come from many formats so a need to transform them
+C. process of converting nominal to numeric type like binary fields
+D. process of solving a problem where some methods require discrete values like Naive bayes classification but some feature's values are not
+D
+
+
+8. in data preparation process some criteria when doing field selection are ?
+A. remove fields with no or little variability
+B. remove a field where almost all values are the same
+C. remove false predictors which are fields correlated to target behavior
+D. all of them
+D
+
+
+9. in field selection step, false predictors removed and suppose the output of model is to predict the likelihood of passing a course so should remove which field ?
+A. the student's final grade
+B. the sleeping hours
+C. the studying hours
+D. the student's final grade of previous session
+A
+
+
+10. a manual approach to finding false predictors is build an initial decision-tree model and consider very strongly predictive fields which if a field by itself provides close to 100% accuracy as "suspects"
+A. true
+B. false
+A
+
+
+11. sometimes classes have very unequal frequency like in security > 99 % of web traffics are from nformal users. So how to handle the unbalanced data ?
+A. oversample minority class where it's defined as adding more copies of the minority class
+B. undersample majority class where it's defined as removing some copies of the majority class
+C. all of them
+D. none of them
+C
+
+
+1. What are some sources of data can be considered as "big data"
+A. transactions from banking and business operations
+B. web traffics on the internet
+C. call logs of a telecommunications provider like AT&T
+D. all of the these
+D
+
+
+2. The term "data mining" refers to the process of discovering useful patterns in data ?
+A. True
+B. False
+A
+
+
+3. What is not an application of data mining in information security fields ?
+A. Auditing: analyze the audit data and determine if there are any abnormalities
+B. Intrusion detection: examine the activities and determine whether unauthorized intrusions have occurred or will occur
+C. Customer Modeling: finding the habits of customers for competitive advantages
+D. Data quality: examine the data and determine whether the data is incomplete
+C
+
+
+4. The fields of machine learning and data mining is known as Knowledge Discovery
+A. True
+B. False
+A
+
+
+5. The informal definition of machine learning: "the field of study that gives computers the ability to learn without being explicitly programmed"
+A. True
+B. False
+A
+
+
+6. What is the valid Knowledge Discovery process circle
+A. Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, Deployment
+B. Business Understanding, Data Preparation, Data Understanding, Modeling, Evaluation, Deployment
+A. Business Understanding, Data Understanding, Data Preparation, Evaluation, Modeling, Deployment
+A. Data Understanding, Business Understanding, Data Preparation, Modeling, Evaluation, Deployment
+A
+
+
+7. Machine learning or "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E". If apply to "classify phishing emails" what is the P
+A. the probability of being classified correctly
+B. classifying phishing email task
+C. a data of labeled emails
+D. none of these
+A
+
+
+11. In classification problems of machine learning, we are instead trying to predict results in a continuous output?
+A. True
+B. False
+B
+
+
+12. Supervised Learning can be categorized into "regression" and "classification" problems ?
+A. True
+B. False
+A
+
+
+13. Choose one algorithm that is not of type supervised learning?
+A. Linear regression
+B. Decision tree
+C. Linear Support Vector Machine
+D. K-means
+D
+
+
+14. In linear regression, we are trying to:
+A. make a best straight line which passes through the training data points
+B. constructs a hyperplane which has the largest distance to the nearest training data points of any class (largest margin)
+C. applying Bayes' theorem with strong independence assumptions between every pair of features
+D. None of these
+A
+
+
+15. Which of the problems below are best addressed using a supervised learning algorithm
+A. from the network flow of a process in computer, predict weather or not it's related to a botnet
+B. from a large malware samples, try to category them based on its behavior
+C. from the web access logs, predict if any sessions come from abnormal users
+D. All of these
+A,C
+
+
+16. Weka is a machine learning software to solve data mining problems ?
+A. False
+B. True
+B
+
+
+17. Which are some problems of finding patterns ?
+A. most patterns are not interesting
+B. patterns may be inexact
+C. data may be garbled or missing
+D. all of these
+D
+
+
+18. Which of the problems below are best addressed using a unsupervised learning algorithm
+A. from the network flow of a process in computer, predict weather or not it's related to a botnet
+B. from a large malware samples, try to category them based on its behavior
+C. from the web access logs, predict if any sessions come from abnormal users
+D. All of these
+B
+
+
+19. To make a good predictor (the model after feeding the training data into algorithm) we can change the algorithm parameters ?
+A. True
+B. False
+A
+
+
+20. The term "overfitting" in machine learning refers what ?
+A. it is too dependent on that data and it is likely to have a higher error rate on new unseen data
+B. it is not adequately capture the underlying structure of the data and such a model will tend to have poor predictive performance
+A
+
+
+1. what are the forms of input that a machine learning might take ?
+A. concepts
+B. instances
+C. attributes
+D. all of them
+D
+
+
+2. what is a concept which is the input form of machine learning ?
+A. kinds of things that can be learned or what we are trying to find—the result of the learning process
+B. an individual, independent example of the concept to be learned
+C. is characterized by the values of attributes that measure different aspects of the instance
+D. None of them
+A
+
+
+3. what is an instance which is the input form of machine learning ?
+A. kinds of things that can be learned or what we are trying to find—the result of the learning process
+B. an individual, independent example of the concept to be learned
+C. is characterized by the values of attributes that measure different aspects of the instance
+D. None of them
+B
+
+
+4. what is an attribute which is the input form of machine learning ?
+A. kinds of things that can be learned or what we are trying to find—the result of the learning process
+B. an individual, independent example of the concept to be learned
+C. is characterized by the values of attributes that measure different aspects of the instance
+C
+
+
+5. what are basically different styles of learning commonly appear in data mining applications ?
+A. Classification learning, Association learning
+B. Classification learning, Association learning, Clustering
+C. Classification learning, Association learning, Clustering, Numeric prediction
+D. Classification learning
+C
+
+
+
+
+Nâng cấp để gỡ bỏ quảng cáo
+Chỉ 35,99 US$/năm
+6. describe classification learning style ?
+A. the learning scheme is presented with a set of classified examples from which it is expected to learn a way of classifying unseen examples
+B. any association among features is sought, not just ones that predict a particular class value
+C. groups of examples that belong together are sought
+D. the outcome to be predicted is not a discrete class but a numeric quantity
+A
+
+
+7. describe association learning ?
+A. the learning scheme is presented with a set of classified examples from which it is expected to learn a way of classifying unseen examples
+B. any association among features is sought, not just ones that predict a particular class value
+C. groups of examples that belong together are sought
+D. the outcome to be predicted is not a discrete class but a numeric quantity
+B
+
+
+8. describe clustering learning ?
+A. the learning scheme is presented with a set of classified examples from which it is expected to learn a way of classifying unseen examples
+B. any association among features is sought, not just ones that predict a particular class value
+C. groups of examples that belong together are sought
+D. the outcome to be predicted is not a discrete class but a numeric quantity
+C
+
+
+9. describe numeric prediction (regression) learning ?
+A. the learning scheme is presented with a set of classified examples from which it is expected to learn a way of classifying unseen examples
+B. any association among features is sought, not just ones that predict a particular class value
+C. groups of examples that belong together are sought
+D. the outcome to be predicted is not a discrete class but a numeric quantity
+D
+
+
+10. it's called supervised learning because its scheme operates under supervision by being provided with the actual outcome for each of the training examples
+A. true
+B. false
+A
+
+
+11. suppose in the weather data an attribute has values sunny, overcast, and rainy. So its attributes not belong to which type ?
+A. nominal attribute
+B. ordinal attribute
+C. numeric (continuous) attribute
+D. none of them
+C
+
+
+12. nominal attributes differ from ordinal attributes in which it's the ones that make it possible to rank order the categories (like hot > mild > cool)
+A. true
+B. false
+B
+
+
+13. what are the challenges when gathering data together?
+A. different data sources
+B. external data may be required
+C. type and level of data aggregation
+D. all of them
+D
+
+
+14. ARFF file is an ASCII text file that describes a list of instances sharing a set of attributes in weka ?
+A. true
+B. false
+A
+
+
+15. some issues like missing values, inaccurate values, unbalanced data are all insignificance things in preparing the input step ?
+A. true
+B. false
+B
+
+
+1. "knowledge" pattern representation is the process of representing the patterns that can be discovered by machine learning
+A. true
+B. false
+A
+
+
+2. __ is the way of representing the output from machine learning that is the same form as the input and can be considered as a lookup table
+A. decision table
+B. decision tree
+C. decision rule
+D. linear model
+A
+
+
+3. which statements are true for decision tree pattern representation ?
+A. Nodes in a decision tree involve testing a particular attribute. Usually, the test compares an attribute value with a constant.
+B. Leaf nodes give a classification that applies to all instances that reach the leaf, or a set of classifications
+C. To classify unknown instance it's is routed down the tree
+D. All of them
+D
+
+
+4. In decision tree pattern representation, if an attribute that is tested at a node is a _ one, the number of children is usually the number of possible values of the attribute
+A. nominal
+B. numeric
+A
+
+
+5. In decision tree pattern representation, if the attribute is numeric, the test at a node usually determines whether its value is greater or less than a predetermined constant, giving a two-way split
+A. true
+B. false
+A
+
+
+6. In decision tree pattern representation, a simple solution is to record the number of elements in the training set that go down each branch and to use the most popular branch if the value for a test instance is missing
+A. true
+B. false
+A
+
+
+7. which statements are true for converting from trees to rules ?
+A. one rule is generated for each leaf
+B. produces rules that are unambiguous
+C. resulting rules are unnecessarily complex
+D. all of them
+D
+
+
+8. Decision rules are make up two components antecedent (precondition) and consequent(conclusion) what are they ?
+A. antecedent is a series of tests just like the tests at nodes in decision trees. Consequent gives a class (classes) assigned by a rule
+B. consequent is a series of tests just like the tests at nodes in decision trees. Antecedent gives a class (classes) assigned by a rule
+A
+
+
+9. which statements are false for converting from rules to trees ?
+A. tree cannot easily express disjunction between rules (like the same structure but different attributes)
+C. corresponding tree may contains identical subtrees
+D. it's easier process compared with the inverse
+B. None of them
+D
+
+
+10. some advantages of using decision rules over decision trees are:
+A. new rules can be added to an existing rule set without disturbing ones already there, whereas to add to a tree structure may require reshaping the whole tree
+B. for binary classification problems just need to define rules for only one class
+C. None of them
+D. All of them
+D
+
+
+11. instance-based knowledge representation uses the instances themselves to represent what is learned, rather than inferring a rule set or decision tree and storing it instead ?
+A. true
+B. false
+A
+
+
+12. which statements are true about instance-based learning ?
+A. instance-based learning is lazy, deferring the real work as long as possible
+B. training instances are searched for instance that most closely resembles new instance
+C. k-nearest-neighbor method is of this type
+D. All of these
+D
+
+
+13. 2-D representation, venn diagram, probabilistic assignment and dendrogram are some output forms of diagrams when clusters rather than a classifier is learned ?
+A. true
+B. false
+A
+
+
+14. differences between relational and propositional decision rules ?
+A. propositional decision rules are rules involved comparing an attribute-value to a constant
+B. relational decision rules exists because a need for comparing attributes with each other
+C. None of them
+D. All of them
+D
+
+
+15. for classification, linear model representation defines a decision boundary (hyperplane) which is a line separating classes
+A. true
+B. false
+A
+
+
+1. opposed to 1R method, naive bayes's modeling use all attributes and allow them to make contributions to the modeling ?
+A. true
+B. false
+A
+
+
+2. two assumptions of attributes that naive bayes makes are (all these assumption is almost never correct in real datasets)?
+A. attributes are equally important and statistically independent
+B. attributes are equally important and statistically dependent
+A
+
+
+3. suppose Bayes's rule is P(H|E) = P(E|H)*P(H)/P(E) where E is the evidence (attribute values), H is the hypothesis (which class). Probability of event before evidence is seen is
+A. P(H)
+B. P(H | E)
+C. none of these
+D. P(E)
+A
+
+
+4. suppose Bayes's rule is P(H|E) = P(E|H)*P(H)/P(E) where E is the evidence (attribute values), H is the hypothesis (which class). Probability of event after evidence is seen is
+A. P(H)
+B. P(H | E)
+C. none of these
+D. P(E)
+B
+
+
+5. which statements are true about the zero-frequency problems ?
+A. occurs if a particular attribute value does not occur in the training set in conjunction with every class value
+B. a posteriori probability will also be zero (regardless of how likely the other values are)
+C. fixed by smoothing method (Laplace estimator)
+D. all of them
+D
+
+
+6. Why can we ignore the denominator of Bayes Theorem when calculating the probabilities of each class?
+A. it's the same for all classes
+B. it can't be ignored
+C. it doesn't have a denominator
+D. it will add error to the final probability of every class
+A
+
+
+7. what does zero-frequency problem in Naive Bayes modeling do is by adding 1 to the count for every attribute value-class combination ?
+A. true
+B. false
+A
+
+
+8. in Naive Bayes modeling how does it handle missing values ?
+A. just ignore missing attributes from calculation
+B. not problem at all because of zero-frequency problem fixing
+C. all of them
+D. none of them
+A
+
+
+9. in Naive Bayes modeling it usually handles numeric attributes by assuming that they have a "normal" or "Gaussian" probability distribution and then compute the most likely parameters of this Gaussian like mean and stand deviation ?
+A. true
+B. false
+A
+
+
+10. popular applications of Naive Bayes classification are ?
+A. email spam filtering
+B. news similarity
+C. product's reviews evalution
+D. all of them
+D
+
+
+11. suppose using Naive Bayes classification for email spam filtering, after you learned that probabilities of event 'spam' and 'not_spam' after evidence are 0.4, 0.6 corresponding. So the email is classified as:
+A. spam
+B. not spam
+B
+
+
+1. the general steps for constructing decision trees are first select an attribute to place at the root node, and make one branch for each possible value, then splits up the example set into subsets, one for every value of the attribute, finally repeat recursively for each branch, using only instances that reach the branch
+A. true
+B. false
+A
+
+
+2. which dataset has the largest information impurity
+A. a set of 5 samples all have the same class
+B. a set of 10 samples all have 5 class A, 5 class B
+C. a set of 20 samples all have the same class
+D. All of them
+B
+
+
+3. which statements are not true about decision tree ?
+A. an internal node is a test on an attribute or which feature to split on
+B. a branch represents an outcome of the test
+C. a leaf node represents a class label or class label distribution
+D. all of them
+D
+
+
+4. _ is the entropy of the class distribution and it represents the expected amount of information that would be needed to classify to one class
+A. impurity measure
+B. information gain
+A
+
+
+5. some criterions for attribute selection are ?
+A. the one which will result in the largest tree
+B. choose an attribute that has lowest impurity
+C. an attribute whose information gain is greatest among others
+D. B and C
+E. All of them
+D
+
+
+6. when does the process of building a decision tree stop ?
+A. when the data cannot be split any further or no information gain on every leaves
+B. when information gain on one feature greater than 0
+C. when information gain on every features greater than 0
+D. when no information gain on one feature
+A
+
+
+7. entropy(impurity measure) is _ when all classes are equally likely and _ when one of the classes has probability 1
+A. maximal, minimal
+B. minimal, maximum
+A
+
+
+8. what is the formula of computing information gain ?
+A. information before splitting - information after splitting
+B. information after splitting- information before splitting
+A
+
+
+9. Entropy is a function that satisfies all three properties which are ?
+A. When node is pure, measure should be zero
+B. When impurity is maximal (i.e. all classes equally likely), measure should be maximal
+C. Measure should obey multistage property (i.e. decisions can be made in several stages)
+D. all of them
+D
+
+
+10. In decision tree, information gain is biased towards choosing attributes with a small number of values
+A. true
+B. false
+B
+
+
+11. The overall effect of having attributes with a large number of distinct values is ?
+A. the information gain measure tends to prefer attributes with large numbers of possible values
+B. this may result in overfitting (selection of an attribute that is non-optimal for prediction)
+C. all of them
+D. none of them
+C
+
+
+12. the purpose of gain ratio or weighted information gain is that making an importance of attribute decreases as intrinsic information gets larger
+A. true
+B. false
+A
+
+
+13. some limitations of decision tree algorithm are ?
+A. many implementations use divide-and-conquer method for construction so it's not globally optimal solution
+B. they potentially overfit the data
+C. all of them
+D. none of them
+C
+
+
+14. which statements are true about "gain ratio" ?
+A. should be large when data is evenly spread and small when all data belong to one branch
+C. takes number and size of branches into account when choosing an attribute
+B. a modification of the information gain that reduces its bias on high-branch attributes
+D. all of them
+D
+
+
+15. Gini impurity, information gain ratio or information entropy are all functions for:
+A. Impurity measure
+B. The expected information gain (or the change in information entropy from a prior state)
+A
+
+
+1. ID3 algorithm is an extension of algorithm C.45 with some improvements like numeric attributes, missing values, pruning strategy?
+A. true
+B. false
+B
+
+
+2. which statements are false about how C.45 handles numeric attributes ?
+A. the standard method is binary splits
+B. Unlike nominal attributes, every attribute has many possible split points
+C. To choose "best" split point, evaluate info gain for every possible split point of attribute
+D. this process is less computationally demanding than for nominal attributes
+D
+
+
+3. which statements are true when comparing binary(on numeric attribute) vs multiway (on nominal attribute) splits in C.45?
+A. splitting (multi-way) on a nominal attribute exhausts all information in that attribute
+B. numeric attribute may be tested several times along a path in the tree
+C. disadvantages of the tree using binary split are messy and difficult to understand
+D. all of them
+D
+
+
+4. because the decision tree models tend to _ so one way to solve this problem is to prune the tree
+A. overfitting
+B. underfitting
+A
+
+
+5. _ is one of pruning strategy to prevent overfitting in the decision tree are ?
+A. postpruning which take a fully-grown decision tree and discard unreliable parts
+B. postpruning which stop growing a branch when information becomes unreliable
+A
+
+
+6. _ is one of pruning strategy to prevent overfitting in the decision tree are ?
+A. prepruning which take a fully-grown decision tree and discard unreliable parts
+B. prepruning which stop growing a branch when information becomes unreliable
+B
+
+
+7. the reason why most decision tree builders prefer postprune over prepruning is there're some situations occur in which two attributes individually seem to have nothing to contribute but are powerful predictors when combined
+A. true
+B. false
+A
+
+
+8. which statements are true about postpruning ?
+A. two prunning operations are subtree replacement and subtree raising
+B. to decide weather or not to prune some strategies are error estimation, significance testing ...
+C. some subtrees might be due to chance effects
+D. all of them
+D
+
+
+9. which statements are true about prepruning in decision tree ?
+A. based on statistical significance test
+B. most popular test is chi-squared test
+C. Quinlan's classic tree learner ID3 used chi-squared test in addition to information gain
+D. all of them
+D
+
+
+10. In decision tree optimization, _ is a potentially time-consuming operation
+A. subtree raising
+B. subtree replacement
+A
+
+
+1. The Classification And Regression Tree CART) algorithm used for _ modeling problems
+A. classification tree
+B. regression tree
+C. classification tree or regression tree
+C
+
+
+2. which statements are true about CART decision-tree algorithm ?
+A. Non-parametric (independent of the statistical distribution of the training data)
+B. Can model continuous (regression trees) or categorical (classification trees) target variables
+C. Can use continuous and non-continuous predictor variables
+D. All of them
+D
+
+
+3. decision tree CART algorithm is multivariate?
+A. true
+B. false
+B
+
+
+4. In decision tree CART model building, at each node in the tree the remaining data (from training points) are split into two groups that have maximum dissimilarity
+A. true
+B. false
+A
+
+
+5. In decision tree CART whose features including ?
+A. automatically selects relevant fields
+B. no data preprocessing needed
+C. missing value tolerant
+D. all of them
+D
+
+
+6. In decision tree CART model building, which metrics used by CART ?
+A. Gini impurity
+B. Information gain (based on the concept of entropy)
+A
+
+
+7. which criteria decision tree CART use to optimize tree selection ?
+A. Deciding on the best tree after growing and pruning
+B. Balancing simplicity against accuracy
+C. All of them
+D. None of them
+C
+
+
+8. In decision tree CART model building how it handle missing values ?
+A. it treats missing as a distinct categorical value
+B. it delete cases that have missing values
+C. it freeze case in node in which missing splitter encountered
+D. it allow cases with missing split variable to follow majority
+E. it uses a more refined method —a surrogate
+E
+
+
+9. A primary splitter is the best splitter of a node so a surrogate (a method used to handle missing values in CART) is a splitter that splits in a fashion similar to the primary
+A. true
+B. false
+A
+
+
+10. CART algorithm is a decision tree algorithm ? term-73
+A. true
+B. false
+A
+
+
+1. which statements are false about linear regression
+A. the goal is to find a line or a linear combination of its attributes
+B. work most naturally with numeric attributes
+C. weights are calculated from the training data
+D. to find the best line, the line must maximum the cost function
+D
+
+
+2. the squared error function equals zero for linear regression when:
+A. the line should pass all points (instances) in training dataset
+B. the line should not pass all points (instances) in training dataset
+A
+
+
+3. suppose use gradient descent to find linear regression model parameters if its learning is too small what will happen ?
+A. gradient descent can be slow to converge
+B. it may fail to converge or even diverge
+A
+
+
+4. what is the purpose of gradient descent algorithm?
+A. to find the point at local minimum or global minimum of the cost function
+B. to find the point at local maximum or global maximum of the cost function
+A
+
+
+5. Logistic Regression differs from Linear Regression because the output of a Logistic Regression model ranges from -∞ to +∞
+A. true
+B. false
+B
+
+
+6. which statements are true about logistic regression ?
+A. the output of the model is the estimated probability that class 1 on an instance as input
+B. its model represented by a logistic(sigmod) function
+C. decision boundary for two-class logistic regression is where probability equals 0.5
+D. all of them
+D
+
+
+7. The goal of maximum log-likelihood in logistic regression is to find parameters of decision boundary line so the cost function is minimized?
+A. true
+B. false
+A
+
+
+8. which statements are true about instance-based learning ?
+A. In instance-based learning the distance function defines what is learned
+B. Most instance-based schemes use Euclidean distance
+C. for nominal attributes the distance is set to 1 if values are different, 0 if they are equal
+D. all of them
+D
+
+
+9. the goal of normalization is make every datapoint have the same scale so each feature is equally important
+A. true
+B. false
+A
+
+
+10. _ algorithm is of type instance-based learning and _ algorithm if of type clustering ?
+A. k nearest neighbor, k means
+B. k means, k nearest neighbor
+A
+
+
+1. what is the definition of training set ?
+A. used by one or more learning schemes to come up with classifiers
+B. used to optimize parameters of those classifiers, or to select a particular one
+C. used to calculate the error rate of the final, optimized, method
+D. none of these
+A
+
+
+2. what is the definition of testing set ? it's the independent instances
+A. used by one or more learning schemes to come up with classifiers
+B. used to optimize parameters of those classifiers, or to select a particular one
+C. used to calculate the error rate of the final, optimized, method
+D. none of these
+C
+
+
+3. what is the definition of validation set ? it's the independent instances
+A. used by one or more learning schemes to come up with classifiers
+B. used to optimize parameters of those classifiers, or to select a particular one
+C. used to calculate the error rate of the final, optimized, method
+D. none of these
+B
+
+
+4. is it true that three sets training, validation, test set must be chosen independently (three sets must be mutually exclusive) to achieve better the real world model ?
+A. true
+B. false
+A
+
+
+5. difference between holdout and cross-validation method to resolve the problem where we only have a single limited dataset ?
+A. The holdout method reserves a certain amount for testing, and uses the remainder for training
+B. The cross-validation method reserves a certain amount for testing, and uses the remainder for training
+C. In cross-validation, you decide on a fixed number n partitions of the data. Then the data is split into n approximately equal partitions: each in turn is used for testing and the remainder is used for training
+D. B and C
+E. A and C
+D
+
+
+6. The problems with cross-validation method for dataset splitting are that it might not be representative or its sets overlapping
+A. true
+B. false
+B
+
+
+7. how to calculate the overall error estimate when using 10-fold cross-validation method for dataset splitting ?
+A. it's the averaged of the 10 error estimates
+B. it's the sum of the 10 error estimates
+C. it's the maximum one among 10 error estimates
+D. it's the minimum one among 10 error estimates
+A
+
+
+8. the test set very similarly to the validation set, except it's never a part of building or tuning your model ?
+A. true
+B. false
+A
+
+
+9. describe the properties of leave-one-out cross-validation ?
+A. the greatest possible amount of data is used for training in each case
+B. the procedure is deterministic: no random sampling is involved
+C. very computationally expensive
+D. It guarantees a non-stratified sample because there is only one instance in the test set
+D. all of them
+E. A, B, C
+D
+
+
+10. The term "hyperparameter" refers to ?
+A. parameter that can be tuned to optimize the performance of a learning algorithm like k in k-nearest neighbour classifier
+B. from basic parameter that is part of a model, such as a coefficient in a logistic regression
+A
+
+
+11. how to get a useful estimate of performance for different parameter values ?
+A. build models using different values of k on the new, smaller training set and evaluate them on the validation set
+B. build models using different values of k on the new, smaller training set and evaluate them on the test set
+A
+
+
+1. _ measures how many classifications your algorithm got correct out of every classification it made
+A. accuracy measure
+B. recall measure
+C. precision measure
+D. F1-score measure
+A
+
+
+2. _ is the percentage of relevant items that your classifier found and calculated as TP/(TP + FN)
+A. accuracy measure
+B. recall measure
+C. precision measure
+D. F1-score measure
+B
+
+
+3. In confusion matrix, two kinds of errors are (choose 2)
+A. false positive
+B. true positive
+C. false negative
+D. true negative
+A,C
+
+
+4. In confusion matrix, two kinds of correction are (choose 2)
+A. false positive
+B. true positive
+C. false negative
+D. true negative
+B,D
+
+
+5. _ is the percentage of items your classifier found that were actually relevant and calculated as TP/(TP + FP)
+A. accuracy measure
+B. recall measure
+C. precision measure
+D. F1-score measure
+C
+
+
+6. is a measure that combines precision and recall is the harmonic mean of precision and recall
+A. accuracy measure
+B. recall measure
+C. precision measure
+D. F1-score measure
+D
+
+
+7. precision and recall are tied to each other. As one goes up, the other will go up too ?
+A. true
+B. false
+B
+
+
+8. why is the F1 score calculated using the harmonic mean?
+A. The harmonic mean makes the F1 score low when either precision or recall is low
+B. The F1 score is calculated using the arithmetic mean
+C. The harmonic mean will consider precision and recall equally.
+D. The harmonic mean takes less time to compute than the arithmetic mean
+A
+
+
+9. In practice, different types of classification errors often incur different costs ?
+A. true
+B. false
+A
+
+
+10. the idea behind cost-sensitive classification (learning) is to take costs into account and make predictions that aim to minimize _ instead of minimizing misclassifications
+A. the overall costs, misclassifications
+B. misclassifications, the overall costs
+A
+
+
+11. Most learning schemes do not perform cost-sensitive learning so simple methods for cost-sensitive learning is:
+A. Re-sampling of instances according to costs
+B. Weighting of instances according to costs
+C. all of them
+D. none of them
+C
+
+
+12. _ is the principal and most commonly used measure for evaluating numeric prediction
+A. Mean-squared error
+B. Mean absolute error
+A
+
+
+13. MDL(minimum description length) principle defined as space required to describe a theory and space required to describe the theory's mistakes in which ?
+A. the theory is the classifier
+B. the mistakes are the errors on the training data
+C. all of them
+D. none of them
+C
+
+
+1. Is it true that in practice Data Preparation is estimated to consume 70-80% of the overall effort ?
+A. true
+B. false
+A
+
+
+2. Main data cleansing steps include:
+A. data acquisition and metadata
+B. converting nominal to numeric
+C. missing values
+D. discretization
+D. all of them
+D
+
+
+3. understanding data is important task so in terms of how its relevance typical asking questions are:
+A. what data is available for the task ?
+B. is this data relevant ?
+C. is additional relevant data available?
+D. what is the number of attributes and its features ?
+E. A, B, C
+F. All of them
+E
+
+
+5. in data preparation process, several ways to handle missing values are:
+A. ignore records
+B. treat missing value as a separate value
+C. replace with zero, mean, median values
+D. try to impute the missing values from other fields
+E. all of them
+E
+
+
+6. in data preparation process, the step data acquisition and metadata is ?
+A. process of getting data where it may come from many resources like database systems, flat files, spreadsheets and fulfill its meta
+B. date fields come from many formats so a need to transform them
+C. process of converting nominal to numeric type like binary fields
+D. process of solving a problem where some methods require discrete values like Naive bayes classification but some feature's values
+A
+
+
+7. in data preparation process, the step data discretizationand metadata is ?
+A. process of getting data can come from many resources like database systems, flat files, spreadsheets and fulfill its meta
+B. date fields come from many formats so a need to transform them
+C. process of converting nominal to numeric type like binary fields
+D. process of solving a problem where some methods require discrete values like Naive bayes classification but some feature's values are not
+D
+
+
+8. in data preparation process some criteria when doing field selection are ?
+A. remove fields with no or little variability
+B. remove a field where almost all values are the same
+C. remove false predictors which are fields correlated to target behavior
+D. all of them
+D
+
+
+9. in field selection step, false predictors removed and suppose the output of model is to predict the likelihood of passing a course so should remove which field ?
+A. the student's final grade
+B. the sleeping hours
+C. the studying hours
+D. the student's final grade of previous session
+A
+
+
+10. a manual approach to finding false predictors is build an initial decision-tree model and consider very strongly predictive fields which if a field by itself provides close to 100% accuracy as "suspects"
+A. true
+B. false
+A
+
+
+11. sometimes classes have very unequal frequency like in security > 99 % of web traffics are from nformal users. So how to handle the unbalanced data ?
+A. oversample minority class where it's defined as adding more copies of the minority class
+B. undersample majority class where it's defined as removing some copies of the majority class
+C. all of them
+D. none of them
+C
+
+
+1. Clustering is the common unsupervised learning technique where it finds natural grouping of instances given unlabeled data ?
+A. True
+B. False
+A
+
+
+2. describe the standard algorithm of k-means ? 2. Pick a number (K) of cluster centers (at random), 1. Assign every item to its nearest cluster center (e.g. using Euclidean distance), 3. Move each cluster center to the mean of its assigned items, 4. Repeat steps 2,3 until convergence
+A. 2, 1, 3, 4
+B. 1, 2, 3, 4
+C, 3, 1, 2, 4
+D. none of them
+A
+
+
+3. Fill in the blank. K-means algorithm stops when __ ?
+A. centroids stabilize (convergence)
+B. centroids become one
+C. the condition k==0 is true
+D. centroids become one
+A
+
+
+4. which statements are true about K-means (a clustering algorithm)
+A. the number of clusters has to be picked in advance
+B. results can vary significantly depending on initial choice of seeds
+C. can get trapped in local minimum
+D.
+D. all of them
+D
+
+
+5. Kmean ++ is the improved version of Kmean where it solves problems of sub-optimal clustering ?
+A. True
+B. False
+A
+
+
+6. Hierarchical clustering only works with numeric attributes and K-means works with symbolic attributes
+A. True
+B. False
+B
+
+
+7. which of the following is not an example of clustering application ?
+A. find groups of products to personalize the user experience
+B. find groups of similar stars and galaxies
+C. finding groups of gene with similar expressions
+D. None of them
+D
+
+
+8. In hierarchical clustering where it builds a hierarchy of clusters. One strategy that each instance starts in its own cluster, and pairs of clusters are merged as one moves up the hierarchy is (also called Agglomerative)
+A. bottom-up approach
+B. top-down approach
+A
+
+
+9. In hierarchical clustering where it builds a hierarchy of clusters. One strategy that all instances start in one cluster, and splits are performed recursively as one moves down the hierarchy (also called Divisive)
+A. bottom-up approach
+B. top-down approach
+B
+
+
+10. In clustering, the algorithm K-means got its name typically by its internal working. What do "K", "mean" mean?
+A. K means number of chosen clusters, "mean" means mean distance
+B. "mean" means number of chosen clusters, K means mean distance
+A
+
+
+1. In association learning, _ refers to one test/attribute-value pair ?
+A. Item
+B. Item set
+C. Support of an itemset
+D. Frequent itemset
+A
+
+
+2. In association learning, _ refers to all items occurring in a rule?
+A. Item
+B. Item set
+C. Support of an itemset
+D. Frequent itemset
+B
+
+
+3. In association learning, _ refers to number of instances correctly covered by association rule?
+A. Item
+B. Item set
+C. Support of an itemset
+D. Frequent itemset
+C
+
+
+4. In association rules, suppose (A,B) is frequent. Since each occurrence of A, B includes both A and B, then both A and B must also be frequent ?
+A. True
+B. False
+A
+
+
+5. In association learning, _ is Item set with at least the minimum support count (sup(I ) >= minsup)?
+A. Item
+B. Item set
+C. Support of an itemset
+D. Frequent itemset
+D
+
+
+6. Association rule R: Itemset1 => Itemset2 with Itemset1, 2 are disjoint and Itemset2 is non-empty. What does it mean ?
+A. if transaction includes Itemset1 then it also has Itemset2
+B. the transaction contains either of them
+C. the transaction contains none of them
+D. none of them
+A
+
+
+7. Given frequent set (A,B,E), what are the number of possible association rules?
+A. 8
+B. 7
+C. 6
+D. 9
+B
+
+
+8. In association rules learning, the rule (butter, bread) => (milk) has a confidence of 1.0 in the database, which means that
+A. 100% of the times a customer buys butter and bread, milk is bought as well
+B. 1% of the times a customer buys butter and bread, milk is bought as well
+C. the confidence is not an indication of how often the rule has been found to be true
+D. None of these
+A
+
+
+9. The association rules that satisfy minimum support and minimum confidence at the same time is called strong association rules ?
+A. True
+B. False
+A
+
+
+10. Standard process of finding strong association rules are ?
+A. a minimum support threshold is applied to find all frequent itemsets in a database then a minimum confidence constraint is applied to these frequent itemsets in order to form rules
+B. a minimum confidence constraint is applied to find all frequent itemsets in a database then a minimum support threshold is applied to these frequent itemsets in order to form rules
+A
+
+
+1. The roles of visualization are ?
+A. support interactive exploration
+B. help in effective result presentation
+C. for quickly see a number of patterns, especially movement, boundaries, and natural
+shapes
+D. all of them
+D
+
+
+2. Histogram, Tukey box plot are examples of visualization in ?
+A. 1-D
+B. 2-D
+C. 3-D
+D. more dimensions (>3)
+A
+
+
+3. Scatter plot, heatmap are examples of visualization in ?
+A. 1-D
+B. 2-D
+C. 3-D
+D. more dimensions (>3)
+B
+
+
+4. Contour plot is a plane section of the three-dimensional graph of the function f(x, y) parallel to the (x, y)-plane ?
+A. True
+B. False
+A
+
+
+5. Scatter-plot matrix, Parallel Coordinates, Chernoff Faces are examples of visualization in ?
+A. 1-D
+B. 2-D
+C. 3-D
+D. more dimensions (>3)
+D
+
+
+6. What is more focused on in supervised learning ?
+A. the outcome variable.In scatterplots, the outcome variable is typically associated with the y axis.
+B. (for the purpose of data reduction or clustering), basic plots that convey relationships (such as scatterplots) are preferred
+A
+
+
+7. What is more focused on in unsupervised learning ?
+A. the outcome variable.In scatterplots, the outcome variable is typically associated with the y axis.
+B. (for the purpose of data reduction or clustering), basic plots that convey relationships (such as scatterplots) are preferred
+B
+
+
+8. What are scatter plots useful for?
+A. important plot in the prediction task
+B. for comparing a single statistic (e.g., average, count, percentage) across groups
+C. for visualizing correlation tables
+D. for visualizing missing values in the data
+A
+
+
+9. What are box plots useful for?
+A. important plot in the prediction task
+B. for comparing a single statistic (e.g., average, count, percentage) across groups
+C. for visualizing correlation tables
+D. for comparing subgroups by generating side-by-side boxplots, or for looking at distributions over time by creating a series of boxplots
+D
+
+
+10. which of the following is a graphical display of numerical data where color is used to denote values ?
+A. heatmap
+B. scatterplot matrix
+C. boxplot
+D. bar chart
+A
+
+
+1. the task of summarization, unlike predictive modeling which tries to predict the future, the goal here is to look back at historical data and summarize it concisely what is new and different, unexpected
+A. true
+B. false
+A
+
+
+2. In KEFIR (Key Findings Reporter) approach in summarization was:
+A. Analyze all possible deviations
+B. Select interesting findings
+C. Augment key findings with explanations of plausible causes and recommendations of appropriate actions
+D. Convert findings to a user-friendly report with text and graphics
+E. All of them
+E
+
+
+3. For Healthcare cost problem, to find all possible deviations, KEFIR examined its search space, which had two main hierarchies (1. the data was broken down by population group, 2. the data was also broken down by the medical problem area)
+A. True
+B. False
+A
+
+
+4. In the task of summarization (KEFIR Approach), to select interesting findings, interestingness = projected deviationimpact_factorsavings_percentage ?
+A. True
+B. False
+A
+
+
+5. In the task of summarization(KEFIR Approach), hierarchical recommendation rules define appropriate intervention strategies for important measures and study areas
+A. True
+B. False
+A
+
+
+6. In the task of summarization(KEFIR Approach), explanation is a measure is explained by finding the path of related measures with the highest impact
+A. True
+B. False
+A
+
+
+1. which statements are true about direct marketing paradigm ?
+A. its purpose is finding most likely prospects to contact
+B. number of targets is usually much smaller than number of prospects
+C. some applications like customer acquisition, cross-sell, attrition
+D. all of them
+D
+
+
+2. the approach usually taken in direct marketing evaluation is ? 1. develop a target model, 2. score all prospects and rank them by decreasing score 3. select top P% of prospects for action
+A. 1, 2, 3
+B. 2, 1, 3
+C. 3, 2, 1
+A
+
+
+3. In direct marketing evaluation, Gains and Lift are measures that can be used to measure the performance on the top P%
+A. True
+B. False
+A
+
+
+4. Lift is a measure of the performance simply the ratio of these values: target response divided by average response.
+A. true
+B. false
+A
+
+
+5. in Lift evaluation, if some rule had a lift of _ then two events are independent of each other, no rule can be drawn involving those two events
+A. 1
+B. > 1
+A
+
+
+6. in Lift evaluation, If the lift is that lets us know the degree to which those two occurrences are dependent on one another
+A. 1
+B. > 1
+B
+
+
+7. Area Under the Curve (AUC) is defined as the difference between Gains and Random Curves ?
+A. true
+B. false
+A
+
+
+8. Lift quality is measured as (AUC(Model) - AUC(Random))/(AUC(Perfect) -AUC(Random)) so
+A. For a perfect model, Lquality = 100%
+B. For a random model, Lquality = 0
+C. For a random model, Lquality = 100%
+D. A and B
+D
+
+
+9. In feasibility assessment, Expected Profit(P) depends on ?
+A. Cost C
+B. Benefit B
+C. Target rate T
+D. Lift(P)
+E. All of them
+E
+
+
+10. Among empirical Observations about Lift, f
